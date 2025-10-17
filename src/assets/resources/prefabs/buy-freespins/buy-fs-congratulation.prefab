@@ -962,7 +962,7 @@
       "__expectedType__": "cc.BitmapFont"
     },
     "_isSystemFontUsed": false,
-    "_spacingX": -10,
+    "_spacingX": -3,
     "_isItalic": false,
     "_isBold": false,
     "_isUnderline": false,
@@ -1074,8 +1074,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 1.11,
-      "y": 1.11,
+      "x": 1.2,
+      "y": 1.2,
       "z": 1
     },
     "_mobility": 0,

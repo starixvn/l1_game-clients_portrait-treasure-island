@@ -4,19 +4,19 @@ export const languages = {
         "all": "Semua",
         "all_bets": "Semua Taruhan",
         "auto": "Otomatis",
-        "auto_bet_header": "Instruksi Taruhan Otomatis",
-        "auto_bet_para_1": "Auto Bet memungkinkan Anda menetapkan aturan untuk taruhan otomatis hingga kondisi yang Anda pilih terpenuhi.",
+        "auto_bet_header": "Panduan Taruhan Otomatis",
+        "auto_bet_para_1": "Taruhan Otomatis memungkinkan Anda menetapkan aturan untuk taruhan otomatis hingga kondisi yang Anda pilih terpenuhi.",
         "auto_bet_para_2": "Jumlah Taruhan: Jumlah putaran untuk taruhan otomatis.",
         "auto_bet_para_3": "Saat Menang",
-        "auto_bet_para_3_1": "Setel Ulang – Kembali ke taruhan awal Anda setelah menang.",
+        "auto_bet_para_3_1": "Reset: Kembali ke taruhan awal Anda setelah menang.",
         "auto_bet_para_3_2": "Tambah dengan: Tingkatkan taruhan Anda dengan persentase yang ditetapkan saat Anda menang.",
         "auto_bet_para_3_3": "(Contoh: Setel +20% → Mulai dengan $10 → menang → taruhan berikutnya $12)",
-        "auto_bet_para_4": "Saat Kalah",
+        "auto_bet_para_4": "Saat Kalah:",
         "auto_bet_para_4_1": "Reset: Kembali ke taruhan awal Anda setelah kalah.",
-        "auto_bet_para_4_2": "Reset: Naikkan taruhan Anda dengan persentase yang ditetapkan saat Anda kalah.",
+        "auto_bet_para_4_2": "Tambahkan: Tingkatkan taruhan Anda dengan persentase yang ditetapkan saat Anda kalah.",
         "auto_bet_para_4_3": "(Contoh: Set +50% → Mulai dengan $10 → kalah → taruhan berikutnya $15)",
-        "auto_bet_para_5": "Stop on Win: Hentikan Taruhan Otomatis saat mencapai target kemenangan Anda.",
-        "auto_bet_para_6": "Stop on Loss: Hentikan Taruhan Otomatis saat mencapai batas kerugian Anda.",
+        "auto_bet_para_5": "Berhenti saat Menang: Hentikan Taruhan Otomatis saat mencapai target kemenangan Anda.",
+        "auto_bet_para_6": "Berhenti saat Kalah: Hentikan Taruhan Otomatis saat mencapai batas kerugian Anda.",
         "auto_cashout": "Cashout Otomatis",
         "auto_play": "AUTO-PLAY",
         "auto_rebet": "Rebet Otomatis",
@@ -82,7 +82,7 @@ export const languages = {
         "hand_is_stand": "Tangan Berakhir",
         "hand_not_active": "Tangan Tidak Aktif",
         "hot": "PANAS",
-        "how_to_use_auto_bet": "Cara menggunakan Auto Bet",
+        "how_to_use_auto_bet": "Cara menggunakan Taruhan Otomatis",
         "increase_by": "Tambahkan sebesar",
         "invalid_bet": "Taruhan Tidak Valid",
         "invalid_deal_hands": "Jumlah Tangan tidak valid",
@@ -288,6 +288,7 @@ export const languages = {
         "tooltip_double": "Gandakan Taruhan Sebelumnya",
         "tooltip_fairness": "adil",
         "tooltip_guide": "Panduan Permainan",
+        "tooltip_live_stat": "Statistik Langsung",
         "tooltip_sound": "Suara",
         "tooltip_stat": "Lihat statistik",
         "total": "Total",
@@ -303,7 +304,12 @@ export const languages = {
         "win": "Menang",
         "win_loss": "Menang Kalah",
         "wins": "MENANG",
-        "you_reach_max_win": "Anda mencapai Maksimal Menang"
+        "you_reach_max_win": "Anda mencapai Maksimal Menang",
+        "invalid_payline": "invalid_payline",
+        "invalid_bonus": "invalid_bonus",
+        "opened_bonus": "opened_bonus",
+        "invalid_jackpot": "invalid_jackpot",
+        "opened_jackpot": "opened_jackpot"
     },
     "cascadingslot": {
         "auto_spin": "Auto Putar",
@@ -389,12 +395,9 @@ export const languages = {
         "you_have_won": "Anda Telah Menang",
         "you_win_free_spin": "Anda menang"
     },
-    "CandyLand": {
-        "big_win": "Kemenangan Besar",
-        "game_icon_name": "Candy Land",
-        "game_name": "Candy Land",
-        "mega_win": "Mega Win",
-        "super_win": "Super Win"
+    "TreasureIsland": {
+        "game_name": "Pulau Harta Karun",
+        "game_icon_name": "Pulau\nHarta Karun"
     },
     "FreeSpinBonus": {
         "bet_level": "Level Taruhan",

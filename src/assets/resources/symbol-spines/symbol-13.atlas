@@ -1,0 +1,27 @@
+
+symbol-13.png
+size: 186,233
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bling
+  rotate: false
+  xy: 2, 111
+  size: 133, 120
+  orig: 135, 122
+  offset: 1, 1
+  index: -1
+highlight
+  rotate: false
+  xy: 137, 35
+  size: 47, 196
+  orig: 58, 200
+  offset: 5, 2
+  index: -1
+symbol/multiplier_yellow
+  rotate: false
+  xy: 2, 2
+  size: 121, 107
+  orig: 137, 107
+  offset: 8, 0
+  index: -1

@@ -39,10 +39,10 @@ export const languages = {
         "from_settle_to_spin2": "Gire mais, ganhe mais!",
         "from_settle_to_spin3": "Experimente o modo Turbo",
         "show_msg_when_spin_phone": "Toque ou segure em Girar para começar",
-        "top_message1": "SÍMBOLOS PAGAM EM QUALQUER LUGAR NA TELA",
-        "top_message2a": "PEDIR",
-        "top_message2b": "PARA MULTIPLICAR O GANHO EM CASCATA",
-        "top_message3": "GANHE ATÉ %{maxWin}x a aposta",
+        "top_message1": "Os símbolos pagam em qualquer lugar da tela",
+        "top_message2a": "Bater",
+        "top_message2b": "para multiplicar o ganho de queda",
+        "top_message3": "Ganhe até %{maxWin}x a aposta",
         "win_tumble_msg": "PARABÉNS!",
         "round_settle_msg": "Boa sorte!",
         "index": "Nº",
@@ -79,9 +79,10 @@ export const languages = {
         "volatility_high": "Alto",
         "balance": "SALDO",
         "bet": "Aposta",
-        "msg_random_multipliers": "Multiplicadores Aleatórios de até 250x",
+        "msg_random_multipliers": "Multiplicadores Aleatórios de até 500x",
         "btn_buy_free_spins": "Comprar\nFree Spins",
-        "msg_free_spins": "Multiplicador crescente em Free Spin"
+        "msg_free_spins": "Multiplicador crescente em Free Spin",
+        "turbo_icon": "Turbo"
     },
     "Common": {
         "bet_history": "Histórico de Apostas",
@@ -374,7 +375,25 @@ export const languages = {
         "title_multiplier": "Multiplicador",
         "crash_start_in": "Começa em %{time}",
         "crashed": "CAIU",
-        "start": "Começar"
+        "start": "Começar",
+        "max": "Máx.",
+        "stop_auto_bet": "Parar Aposta Automática",
+        "msg_rotate_to_portrait": "Gire sua tela para o modo retrato para jogar",
+        "auto_bet_header": "Guia de Apostas Automáticas",
+        "how_to_use_auto_bet": "Como usar o Apostas Automáticas",
+        "auto_bet_para_1": "O Apostas Automáticas permite que você defina regras para apostas automáticas até que as condições escolhidas sejam atendidas.",
+        "auto_bet_para_2": "Número de Apostas: Total de rodadas para apostar automaticamente.",
+        "auto_bet_para_3": "Ao Ganhar",
+        "auto_bet_para_3_1": "Redefinir: Retorne à sua aposta inicial após uma vitória.",
+        "auto_bet_para_3_2": "Aumentar em: Aumente sua aposta em uma porcentagem definida quando você ganha.",
+        "auto_bet_para_3_3": "(Exemplo: Definir +20% → Começar com $10 → ganhar → próxima aposta $12)",
+        "auto_bet_para_4": "Na Perda:",
+        "auto_bet_para_4_1": "Reset: Retorne à sua aposta inicial após uma perda.",
+        "auto_bet_para_4_2": "Aumentar por: Aumente sua aposta em uma porcentagem definida quando você perde.",
+        "auto_bet_para_4_3": "(Exemplo: Definir +50% → Começar com $10 → perder → próxima aposta $15)",
+        "auto_bet_para_5": "Parar ao Ganhar: Pare a aposta automática ao atingir sua meta de ganhos.",
+        "auto_bet_para_6": "Parar ao Perder: Pare a Aposta Automática ao atingir seu limite de perda.",
+        "tooltip_live_stat": "Estatística ao Vivo"
     },
     "PickleballLoveStory": {
         "game_name": "Pickleball Love Story",
@@ -457,6 +476,10 @@ export const languages = {
         "total_win": "Ganho Total",
         "Unexpected_gift_code_error_message": "Ocorreu um erro inesperado. Por favor, tente novamente mais tarde.",
         "Close": "Fechar"
+    },
+    "TreasureIsland": {
+        "game_name": "Ilha do Tesouro",
+        "game_icon_name": "Ilha do\nTesouro"
     }
 };
 

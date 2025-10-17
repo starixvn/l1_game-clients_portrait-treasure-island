@@ -4,19 +4,19 @@ export const languages = {
         "all": "全部",
         "all_bets": "全部投注",
         "auto": "自动",
-        "auto_bet_header": "自动投注说明",
+        "auto_bet_header": "自动投注指南",
         "auto_bet_para_1": "通过自动投注，您可以设置自动投注的规则，直到满足您选择的条件。",
         "auto_bet_para_2": "投注次数：自动投注的总轮数。",
         "auto_bet_para_3": "获胜时",
-        "auto_bet_para_3_1": "重置 – 赢钱后返回您的起始赌注。",
+        "auto_bet_para_3_1": "重置：赢了之后返回您的初始投注。",
         "auto_bet_para_3_2": "增加：在您获胜时，按设定的百分比提高您的投注额。",
         "auto_bet_para_3_3": "（示例：设置 +20% → 以 10 美元开始 → 赢 → 下一个赌注 12 美元）",
-        "auto_bet_para_4": "失败时",
+        "auto_bet_para_4": "失败时:",
         "auto_bet_para_4_1": "Reset：在失败后返回您的起始赌注。",
-        "auto_bet_para_4_2": "Reset：失败后，按设定的百分比增加您的赌注。",
+        "auto_bet_para_4_2": "增加：在您输掉时，按设定的百分比增加您的投注。",
         "auto_bet_para_4_3": "（示例：设置 +50% → 从 10 美元开始 → 失败 → 下一个赌注 15 美元）",
-        "auto_bet_para_5": "Stop on Win：当达到您的赢钱目标时停止自动投注。",
-        "auto_bet_para_6": "Stop on Loss：当达到您的亏损限额时停止自动投注。",
+        "auto_bet_para_5": "赢时停止：当达到您的赢钱目标时停止自动投注。",
+        "auto_bet_para_6": "亏损时停止：当达到您的亏损限额时停止自动投注。",
         "auto_cashout": "自动兑现",
         "auto_play": "自动游戏",
         "auto_rebet": "自动重押",
@@ -82,7 +82,7 @@ export const languages = {
         "hand_is_stand": "结束手牌",
         "hand_not_active": "不活跃手牌",
         "hot": "热",
-        "how_to_use_auto_bet": "如何使用Auto Bet",
+        "how_to_use_auto_bet": "如何使用自动投注",
         "increase_by": "增加",
         "invalid_bet": "无效投注",
         "invalid_deal_hands": "这数量手牌无效",
@@ -288,6 +288,7 @@ export const languages = {
         "tooltip_double": "双倍之前的投注",
         "tooltip_fairness": "公平",
         "tooltip_guide": "游戏指南",
+        "tooltip_live_stat": "实时统计",
         "tooltip_sound": "声音",
         "tooltip_stat": "查看统计",
         "total": "全部的",
@@ -303,7 +304,12 @@ export const languages = {
         "win": "赢",
         "win_loss": "赢 输",
         "wins": "赢",
-        "you_reach_max_win": "您达到了最大胜利"
+        "you_reach_max_win": "您达到了最大胜利",
+        "invalid_payline": "invalid_payline",
+        "invalid_bonus": "invalid_bonus",
+        "opened_bonus": "opened_bonus",
+        "invalid_jackpot": "invalid_jackpot",
+        "opened_jackpot": "opened_jackpot"
     },
     "cascadingslot": {
         "auto_spin": "自动旋转",
@@ -389,12 +395,9 @@ export const languages = {
         "you_have_won": "你赢了",
         "you_win_free_spin": "您赢得"
     },
-    "CandyLand": {
-        "big_win": "大赢",
-        "game_icon_name": "糖果乐园",
-        "game_name": "糖果乐园",
-        "mega_win": "Mega Win",
-        "super_win": "Super Win"
+    "TreasureIsland": {
+        "game_name": "宝藏岛",
+        "game_icon_name": "宝藏岛"
     },
     "FreeSpinBonus": {
         "bet_level": "投注等级",

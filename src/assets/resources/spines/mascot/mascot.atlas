@@ -1,0 +1,55 @@
+
+mascot.png
+size: 1204,226
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bag
+  rotate: true
+  xy: 732, 57
+  size: 167, 138
+  orig: 335, 522
+  offset: 75, 138
+  index: -1
+chan
+  rotate: false
+  xy: 465, 14
+  size: 170, 210
+  orig: 335, 522
+  offset: 75, 29
+  index: -1
+dau
+  rotate: true
+  xy: 1106, 52
+  size: 110, 96
+  orig: 335, 522
+  offset: 135, 394
+  index: -1
+main-char
+  rotate: true
+  xy: 2, 2
+  size: 222, 461
+  orig: 335, 522
+  offset: 46, 29
+  index: -1
+tayphai
+  rotate: false
+  xy: 637, 49
+  size: 93, 175
+  orig: 335, 522
+  offset: 45, 213
+  index: -1
+taytrai
+  rotate: true
+  xy: 872, 164
+  size: 60, 289
+  orig: 335, 522
+  offset: 209, 86
+  index: -1
+thanhinh
+  rotate: true
+  xy: 872, 3
+  size: 159, 232
+  orig: 335, 522
+  offset: 73, 202
+  index: -1

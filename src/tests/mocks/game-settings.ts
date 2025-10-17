@@ -1,7 +1,7 @@
 export const settings = {
-    id: 66,
-    name: "CandyLand",
-    tolgeeNamespaces: ["CandyLand", "cascadingslot"],
+    id: 47,
+    name: "TreasureIsland",
+    tolgeeNamespaces: ["TreasureIsland", "cascadingslot"],
     durations: {
         wholeRound: 14,
         lockingBet: 3,
@@ -14,7 +14,7 @@ export const settings = {
     },
     isMiniGame: false,
     numberOfRoundHistory: 11,
-    observerNamespace: "CandyLand",
+    observerNamespace: "TreasureIsland",
     validateBalanceWhenBet: true,
 };
 

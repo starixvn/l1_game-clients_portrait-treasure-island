@@ -13,7 +13,7 @@ export const languages = {
         "auto_bet_para_3_3": "(Example: Set +20% → Start with $10 → win → next bet $12)",
         "auto_bet_para_4": "On Loss:",
         "auto_bet_para_4_1": "Reset: Return to your starting bet after a loss.",
-        "auto_bet_para_4_2": "Reset: Raise your bet by a set percentage when you lose.",
+        "auto_bet_para_4_2": "Increase by: Raise your bet by a set percentage when you lose.",
         "auto_bet_para_4_3": "(Example: Set +50% → Start with $10 → lose → next bet $15)",
         "auto_bet_para_5": "Stop on Win: Stop Auto Bet when reaching your win target.",
         "auto_bet_para_6": "Stop on Loss: Stop Auto Bet when reaching your loss limit.",
@@ -288,6 +288,7 @@ export const languages = {
         "tooltip_double": "Double",
         "tooltip_fairness": "Fairness",
         "tooltip_guide": "Game Guides",
+        "tooltip_live_stat": "Live Stat",
         "tooltip_sound": "Sound",
         "tooltip_stat": "View stat",
         "total": "Total",
@@ -303,7 +304,12 @@ export const languages = {
         "win": "Win",
         "win_loss": "Win Loss",
         "wins": "Wins",
-        "you_reach_max_win": "You reached the max win"
+        "you_reach_max_win": "You reached the max win",
+        "invalid_payline": "invalid_payline",
+        "invalid_bonus": "invalid_bonus",
+        "opened_bonus": "opened_bonus",
+        "invalid_jackpot": "invalid_jackpot",
+        "opened_jackpot": "opened_jackpot"
     },
     "cascadingslot": {
         "auto_spin": "Auto Spin",
@@ -389,12 +395,9 @@ export const languages = {
         "you_have_won": "You Have Won",
         "you_win_free_spin": "You win"
     },
-    "CandyLand": {
-        "big_win": "Big Win",
-        "game_icon_name": "Candy Land",
-        "game_name": "Candy Land",
-        "mega_win": "Mega Win",
-        "super_win": "Super Win"
+    "TreasureIsland": {
+        "game_name": "Treasure Island",
+        "game_icon_name": "Treasure\nIsland"
     },
     "FreeSpinBonus": {
         "bet_level": "Bet Level",

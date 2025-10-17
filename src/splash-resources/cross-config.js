@@ -1,4 +1,4 @@
 window.crossConfig = {
     backgroundLocalized: false,
-    storagePrefixKey: "candyland",
+    storagePrefixKey: "treasureisland",
 };

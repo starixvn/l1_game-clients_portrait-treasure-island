@@ -1,13 +1,125 @@
 
 transition.png
-size: 262,163
+size: 1964,1886
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-cloud-2
+smoke/Energy 12_00000
+  rotate: true
+  xy: 604, 1284
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00001
+  rotate: true
+  xy: 2, 944
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00002
+  rotate: false
+  xy: 342, 944
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00003
+  rotate: true
+  xy: 944, 1284
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00004
+  rotate: true
+  xy: 944, 682
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00005
+  rotate: true
+  xy: 2, 342
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00007
+  rotate: true
+  xy: 342, 342
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00008
+  rotate: false
+  xy: 682, 342
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00009
+  rotate: true
+  xy: 1284, 1284
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00010
+  rotate: true
+  xy: 1284, 682
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00011
+  rotate: false
+  xy: 1284, 342
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00012
+  rotate: true
+  xy: 1624, 1284
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00013
+  rotate: true
+  xy: 1624, 682
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00014
   rotate: false
   xy: 2, 2
-  size: 258, 159
-  orig: 260, 161
-  offset: 0, 2
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00015
+  rotate: false
+  xy: 604, 2
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00017
+  rotate: false
+  xy: 1206, 2
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
+  index: -1
+smoke/Energy 12_00018
+  rotate: false
+  xy: 2, 1546
+  size: 600, 338
+  orig: 600, 338
+  offset: 0, 0
   index: -1

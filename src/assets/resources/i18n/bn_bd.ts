@@ -31,7 +31,7 @@ export const languages = {
         "label_on_game_icon": "ক্যাসকেডিং রিলস",
         "Common-example": "উদাহরণ:",
         "FreeSpin-title": "Free Spin",
-        "Payout-title": "পেটেবল",
+        "Payout-title": "Paytable",
         "auto_spin_guide_text": "অটো স্পিনের সংখ্যা",
         "start": "শুরু করুন",
         "free_spin_left_amount": "বিনামূল্যে স্পিন বাকি %{amount}",
@@ -81,7 +81,8 @@ export const languages = {
         "bet": "বেট",
         "msg_random_multipliers": "250x পর্যন্ত র্যান্ডম মাল্টিপ্লায়ার",
         "btn_buy_free_spins": "Buy Free Spins",
-        "msg_free_spins": "Free Spins এ ক্রমবর্ধমান মাল্টিপ্লায়ার"
+        "msg_free_spins": "Free Spins এ ক্রমবর্ধমান মাল্টিপ্লায়ার",
+        "turbo_icon": "Turbo"
     },
     "Common": {
         "bet_history": "বাজি ইতিহাস",
@@ -374,7 +375,25 @@ export const languages = {
         "title_multiplier": "গুণক",
         "crash_start_in": "শুরু হবে %{time}",
         "crashed": "বিধ্বস্ত",
-        "start": "শুরু করুন"
+        "start": "শুরু করুন",
+        "max": "সর্বোচ্চ",
+        "stop_auto_bet": "অটো বেট বন্ধ করুন",
+        "msg_rotate_to_portrait": "খেলতে আপনার স্ক্রিনটি পোর্ট্রেট মোডে ঘোরান",
+        "auto_bet_header": "অটো বেট গাইড",
+        "how_to_use_auto_bet": "অটো বেট কিভাবে ব্যবহার করবেন",
+        "auto_bet_para_1": "অটো বেট আপনাকে স্বয়ংক্রিয় বেটিংয়ের জন্য নিয়ম সেট করতে দেয় যতক্ষণ না আপনার পছন্দসই শর্তগুলো পূরণ হয়।",
+        "auto_bet_para_2": "বেটের সংখ্যা: অটো-বেটের জন্য মোট রাউন্ড।",
+        "auto_bet_para_3": "জয় হলে",
+        "auto_bet_para_3_1": "রিসেট: জয়ের পরে আপনার প্রারম্ভিক বেটে ফিরে যান।",
+        "auto_bet_para_3_2": "বৃদ্ধি করুন: জিতলে আপনার বাজি একটি নির্দিষ্ট শতাংশ হারে বাড়ান।",
+        "auto_bet_para_3_3": "(উদাহরণ: +20% সেট করুন → $10 দিয়ে শুরু করুন → জিতুন → পরবর্তী বাজি $12)",
+        "auto_bet_para_4": "ক্ষতিতে",
+        "auto_bet_para_4_1": "Reset: হারানোর পরে আপনার শুরুর বাজি তে ফিরে যান।",
+        "auto_bet_para_4_2": "বৃদ্ধি করুন: যখন আপনি হারেন তখন একটি নির্দিষ্ট শতাংশ হারে আপনার বেট বাড়ান।",
+        "auto_bet_para_4_3": "(উদাহরণ: +50% সেট করুন → $10 দিয়ে শুরু করুন → হারুন → পরবর্তী বাজি $15)",
+        "auto_bet_para_5": "জেতার পরে থামুন: আপনার জয়ের লক্ষ্যে পৌঁছালে অটো বেট বন্ধ করুন।",
+        "auto_bet_para_6": "ক্ষতিতে থামুন: আপনার ক্ষতির সীমা পৌঁছে গেলে অটো বেট বন্ধ করুন।",
+        "tooltip_live_stat": "লাইভ স্ট্যাট"
     },
     "CandyLand": {
         "game_name": "CandyLand",
@@ -453,6 +472,10 @@ export const languages = {
         "total_win": "মোট জয়",
         "Unexpected_gift_code_error_message": " অপ্রত্যাশিত ত্রুটি ঘটেছে। পরে আবার চেষ্টা করুন।",
         "Close": "বন্ধ"
+    },
+    "TreasureIsland": {
+        "game_name": "Treasure Island",
+        "game_icon_name": "ধনের\nদ্বীপ"
     }
 };
 

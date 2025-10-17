@@ -1,0 +1,209 @@
+
+effect.png
+size: 1766,367
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+big
+  rotate: false
+  xy: 844, 67
+  size: 140, 138
+  orig: 140, 148
+  offset: 0, 5
+  index: -1
+bling
+  rotate: false
+  xy: 1330, 245
+  size: 133, 120
+  orig: 135, 122
+  offset: 1, 1
+  index: -1
+circle light
+  rotate: false
+  xy: 703, 61
+  size: 139, 144
+  orig: 150, 148
+  offset: 9, 2
+  index: -1
+explose light circle/sb_vfx_a_add_00.jpg
+  rotate: false
+  xy: 1383, 12
+  size: 73, 74
+  orig: 124, 124
+  offset: 26, 25
+  index: -1
+explose light circle/sb_vfx_a_add_01.jpg
+  rotate: false
+  xy: 929, 215
+  size: 79, 77
+  orig: 124, 124
+  offset: 23, 25
+  index: -1
+explose light circle/sb_vfx_a_add_05.jpg
+  rotate: false
+  xy: 1591, 28
+  size: 97, 95
+  orig: 124, 124
+  offset: 14, 16
+  index: -1
+explose light circle/sb_vfx_a_add_06.jpg
+  rotate: false
+  xy: 1282, 4
+  size: 99, 102
+  orig: 124, 124
+  offset: 13, 13
+  index: -1
+explose light circle/sb_vfx_a_add_07.jpg
+  rotate: false
+  xy: 1177, 2
+  size: 103, 104
+  orig: 124, 124
+  offset: 11, 12
+  index: -1
+explose light circle/sb_vfx_a_add_08.jpg
+  rotate: false
+  xy: 1070, 2
+  size: 105, 107
+  orig: 124, 124
+  offset: 10, 9
+  index: -1
+explose light circle/sb_vfx_a_add_09.jpg
+  rotate: false
+  xy: 1479, 12
+  size: 110, 112
+  orig: 124, 124
+  offset: 7, 4
+  index: -1
+explose light circle/sb_vfx_a_add_11.jpg
+  rotate: false
+  xy: 1305, 108
+  size: 114, 118
+  orig: 124, 124
+  offset: 7, 1
+  index: -1
+explose light circle/sb_vfx_a_add_12.jpg
+  rotate: false
+  xy: 1070, 111
+  size: 115, 119
+  orig: 124, 124
+  offset: 5, 1
+  index: -1
+explose light circle/sb_vfx_a_add_13.jpg
+  rotate: false
+  xy: 1479, 126
+  size: 115, 118
+  orig: 124, 124
+  offset: 4, 3
+  index: -1
+explose light circle/sb_vfx_a_add_14.jpg
+  rotate: false
+  xy: 1596, 125
+  size: 114, 117
+  orig: 124, 124
+  offset: 5, 5
+  index: -1
+explose light circle/sb_vfx_a_add_15.jpg
+  rotate: false
+  xy: 1187, 108
+  size: 116, 118
+  orig: 124, 124
+  offset: 4, 5
+  index: -1
+explose light circle/sb_vfx_a_add_16.jpg
+  rotate: false
+  xy: 1596, 244
+  size: 118, 121
+  orig: 124, 124
+  offset: 4, 3
+  index: -1
+free spins
+  rotate: false
+  xy: 530, 207
+  size: 397, 85
+  orig: 404, 90
+  offset: 3, 2
+  index: -1
+general/BGseaweed
+  rotate: false
+  xy: 530, 294
+  size: 521, 71
+  orig: 527, 93
+  offset: 3, 10
+  index: -1
+general/column
+  rotate: false
+  xy: 530, 24
+  size: 141, 21
+  orig: 161, 22
+  offset: 11, 0
+  index: -1
+general/gold2
+  rotate: false
+  xy: 703, 35
+  size: 109, 24
+  orig: 110, 24
+  offset: 0, 0
+  index: -1
+general/seaweed 1
+  rotate: false
+  xy: 986, 5
+  size: 82, 208
+  orig: 82, 211
+  offset: 0, 3
+  index: -1
+general/seaweed 2
+  rotate: false
+  xy: 1421, 88
+  size: 56, 155
+  orig: 91, 166
+  offset: 17, 6
+  index: -1
+general/seaweed 3
+  rotate: false
+  xy: 1716, 294
+  size: 44, 71
+  orig: 44, 72
+  offset: 0, 1
+  index: -1
+general/stone
+  rotate: false
+  xy: 2, 10
+  size: 526, 355
+  orig: 538, 355
+  offset: 5, 0
+  index: -1
+pearl
+  rotate: false
+  xy: 1690, 51
+  size: 74, 72
+  orig: 78, 73
+  offset: 2, 0
+  index: -1
+symbol-mega
+  rotate: false
+  xy: 1053, 232
+  size: 138, 133
+  orig: 140, 148
+  offset: 1, 10
+  index: -1
+symbol-supper
+  rotate: false
+  xy: 1193, 228
+  size: 135, 137
+  orig: 140, 148
+  offset: 3, 8
+  index: -1
+waterball
+  rotate: false
+  xy: 1465, 246
+  size: 129, 119
+  orig: 153, 153
+  offset: 11, 15
+  index: -1
+whirlpool
+  rotate: false
+  xy: 530, 47
+  size: 171, 158
+  orig: 207, 202
+  offset: 19, 19
+  index: -1

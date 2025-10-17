@@ -1,139 +1,118 @@
 
 btn-spin.png
-size: 396,918
+size: 915,314
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-black-72-disable
+explose light circle/sb_vfx_a_add_00.jpg
   rotate: false
-  xy: 2, 725
-  size: 191, 191
-  orig: 195, 195
-  offset: 2, 2
+  xy: 773, 5
+  size: 73, 74
+  orig: 124, 124
+  offset: 26, 25
   index: -1
-blink
+explose light circle/sb_vfx_a_add_01.jpg
   rotate: false
-  xy: 379, 716
-  size: 10, 10
-  orig: 12, 12
-  offset: 1, 1
+  xy: 692, 2
+  size: 79, 77
+  orig: 124, 124
+  offset: 23, 25
   index: -1
-hover
+explose light circle/sb_vfx_a_add_05.jpg
   rotate: false
-  xy: 195, 728
-  size: 188, 188
-  orig: 200, 200
-  offset: 7, 6
+  xy: 810, 111
+  size: 97, 95
+  orig: 124, 124
+  offset: 14, 16
   index: -1
-light
+explose light circle/sb_vfx_a_add_06.jpg
   rotate: false
-  xy: 2, 557
-  size: 166, 166
-  orig: 166, 166
-  offset: 0, 0
-  index: -1
-spin-button-base-bg
-  rotate: false
-  xy: 195, 544
-  size: 182, 182
-  orig: 208, 208
+  xy: 109, 7
+  size: 99, 102
+  orig: 124, 124
   offset: 13, 13
   index: -1
-spin_magic
+explose light circle/sb_vfx_a_add_07.jpg
   rotate: false
-  xy: 2, 401
-  size: 154, 154
-  orig: 166, 166
-  offset: 6, 6
+  xy: 810, 208
+  size: 103, 104
+  orig: 124, 124
+  offset: 11, 12
   index: -1
-spin_magic_inside
+explose light circle/sb_vfx_a_add_08.jpg
   rotate: false
-  xy: 158, 390
-  size: 152, 152
-  orig: 152, 152
-  offset: 0, 0
+  xy: 2, 2
+  size: 105, 107
+  orig: 124, 124
+  offset: 10, 9
   index: -1
-star
+explose light circle/sb_vfx_a_add_09.jpg
+  rotate: true
+  xy: 693, 81
+  size: 110, 112
+  orig: 124, 124
+  offset: 7, 4
+  index: -1
+explose light circle/sb_vfx_a_add_11.jpg
   rotate: false
-  xy: 2, 9
-  size: 38, 36
-  orig: 38, 36
-  offset: 0, 0
+  xy: 328, 7
+  size: 114, 118
+  orig: 124, 124
+  offset: 7, 1
   index: -1
-vfx-00
+explose light circle/sb_vfx_a_add_12.jpg
   rotate: false
-  xy: 312, 336
-  size: 76, 98
-  orig: 190, 190
-  offset: 53, 46
+  xy: 693, 193
+  size: 115, 119
+  orig: 124, 124
+  offset: 5, 1
   index: -1
-vfx-01
+explose light circle/sb_vfx_a_add_13.jpg
   rotate: false
-  xy: 312, 436
-  size: 82, 106
-  orig: 190, 190
-  offset: 50, 41
+  xy: 444, 9
+  size: 115, 118
+  orig: 124, 124
+  offset: 4, 3
   index: -1
-vfx-02
+explose light circle/sb_vfx_a_add_14.jpg
   rotate: true
-  xy: 2, 47
-  size: 88, 112
-  orig: 190, 190
-  offset: 46, 38
+  xy: 573, 75
+  size: 114, 117
+  orig: 124, 124
+  offset: 5, 5
   index: -1
-vfx-03
-  rotate: true
-  xy: 260, 2
-  size: 92, 118
-  orig: 190, 190
-  offset: 44, 35
-  index: -1
-vfx-04
-  rotate: true
-  xy: 136, 46
-  size: 98, 122
-  orig: 190, 190
-  offset: 42, 33
-  index: -1
-vfx-05
-  rotate: true
-  xy: 268, 96
-  size: 104, 126
-  orig: 190, 190
-  offset: 40, 31
-  index: -1
-vfx-06
-  rotate: true
-  xy: 136, 146
-  size: 110, 130
-  orig: 190, 190
-  offset: 39, 30
-  index: -1
-vfx-07
+explose light circle/sb_vfx_a_add_15.jpg
   rotate: false
-  xy: 278, 202
-  size: 114, 132
-  orig: 190, 190
-  offset: 38, 29
+  xy: 210, 7
+  size: 116, 118
+  orig: 124, 124
+  offset: 4, 5
   index: -1
-vfx-08
-  rotate: true
-  xy: 2, 137
-  size: 122, 132
-  orig: 190, 190
-  offset: 34, 28
-  index: -1
-vfx-09
-  rotate: true
-  xy: 142, 258
-  size: 130, 134
-  orig: 190, 190
-  offset: 30, 28
-  index: -1
-vfx-10
+explose light circle/sb_vfx_a_add_16.jpg
   rotate: false
-  xy: 2, 261
-  size: 138, 138
+  xy: 573, 191
+  size: 118, 121
+  orig: 124, 124
+  offset: 4, 3
+  index: -1
+hinhle/circle
+  rotate: false
+  xy: 204, 127
+  size: 185, 185
+  orig: 189, 188
+  offset: 1, 0
+  index: -1
+hinhle/disable
+  rotate: false
+  xy: 2, 111
+  size: 200, 201
+  orig: 208, 208
+  offset: 4, 4
+  index: -1
+hinhle/strokecircle
+  rotate: false
+  xy: 391, 129
+  size: 180, 183
   orig: 190, 190
-  offset: 26, 26
+  offset: 5, 1
   index: -1

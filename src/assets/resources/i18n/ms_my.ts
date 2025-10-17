@@ -39,10 +39,10 @@ export const languages = {
         "from_settle_to_spin2": "Putar lebih banyak, menang lebih banyak!",
         "from_settle_to_spin3": "Cuba mod Turbo",
         "show_msg_when_spin_phone": "Sentuh atau tahan Spin untuk memulakan",
-        "top_message1": "SIMBOL MEMBAYAR DI MANA-MANA PADA SKRIN",
-        "top_message2a": "TEKAN",
-        "top_message2b": "UNTUK MENDARABKAN KEMENANGAN TUMBLE",
-        "top_message3": "MENANG SEHINGGA %{maxWin}X BET",
+        "top_message1": "Simbol membayar di mana-mana pada skrin",
+        "top_message2a": "Pukul",
+        "top_message2b": "untuk melipatgandakan kemenangan runtuhan",
+        "top_message3": "Menang sehingga %{maxWin}x pertaruhan",
         "win_tumble_msg": "TAHNIAH!",
         "round_settle_msg": "Semoga berjaya!",
         "index": "No.",
@@ -79,9 +79,10 @@ export const languages = {
         "volatility_high": "Tinggi",
         "balance": "BALANCE",
         "bet": "Taruhan",
-        "msg_random_multipliers": "Pengganda rawak Sehingga 250x",
+        "msg_random_multipliers": "Pengganda rawak Sehingga 500x",
         "btn_buy_free_spins": "Beli\nFree Spins",
-        "msg_free_spins": "Peningkatan Pengganda Dalam Free Spins"
+        "msg_free_spins": "Peningkatan Pengganda Dalam Free Spins",
+        "turbo_icon": "Turbo"
     },
     "Common": {
         "bet_history": "Sejarah Pertaruhan",
@@ -374,7 +375,25 @@ export const languages = {
         "title_multiplier": "Pengganda ",
         "crash_start_in": "Mula dalam %{time}",
         "crashed": "RUNTUH",
-        "start": "Mula"
+        "start": "Mula",
+        "max": "Maks",
+        "stop_auto_bet": "Berhenti Pertaruhan Auto",
+        "msg_rotate_to_portrait": "Sila putar skrin anda ke mod potret untuk bermain",
+        "auto_bet_header": "Panduan Pertaruhan Auto",
+        "how_to_use_auto_bet": "Cara menggunakan Pertaruhan Auto",
+        "auto_bet_para_1": "Pertaruhan Auto membolehkan anda menetapkan peraturan untuk pertaruhan automatik sehingga syarat yang anda pilih dipenuhi.",
+        "auto_bet_para_2": "Bilangan Pertaruhan: Jumlah pusingan untuk pertaruhan auto.",
+        "auto_bet_para_3": "Apabila Menang",
+        "auto_bet_para_3_1": "Tetapkan Semula: Kembali kepada taruhan permulaan anda selepas menang.",
+        "auto_bet_para_3_2": "Tambah sebanyak: Naikkan pertaruhan anda mengikut peratusan yang ditetapkan apabila anda menang.",
+        "auto_bet_para_3_3": "(Contoh: Tetapkan +20% → Mulakan dengan $10 → menang → pertaruhan seterusnya $12)",
+        "auto_bet_para_4": "Kekalahan:",
+        "auto_bet_para_4_1": "Reset: Kembali ke pertaruhan permulaan anda selepas kerugian.",
+        "auto_bet_para_4_2": "Tetapkan Semula: Tingkatkan taruhan anda dengan peratusan yang ditetapkan apabila anda kalah.",
+        "auto_bet_para_4_3": "(Contoh: Tetapkan +50% → Mula dengan $10 → kalah → pertaruhan seterusnya $15)",
+        "auto_bet_para_5": "Berhenti Apabila Menang: Hentikan Pertaruhan Auto apabila mencapai sasaran kemenangan anda.",
+        "auto_bet_para_6": "Berhenti Jika Rugi: Hentikan Pertaruhan Auto apabila mencapai had kerugian anda.",
+        "tooltip_live_stat": "Statistik Langsung"
     },
     "CandyLand": {
         "game_name": "CandyLand",
@@ -453,6 +472,10 @@ export const languages = {
         "total_win": "Jumlah Kemenangan",
         "Unexpected_gift_code_error_message": "Ralat tak dijangka berlaku. Sila cuba lagi kemudian.",
         "Close": "Tutup"
+    },
+    "TreasureIsland": {
+        "game_name": "Treasure Island",
+        "game_icon_name": "Pulau\nHarta"
     }
 };
 

@@ -1,22 +1,36 @@
 {
     "lobbyNames": {
-        "en": "Candy Land",
-        "id": "Candy Land",
-        "th": "Candy Land",
-        "vi": "Vương Quốc Kẹo Ngọt",
-        "zh_cn": "糖果乐园",
-        "zh_tw": "糖果樂園",
-        "ja": "Candy Land",
-        "es": "Candy Land"
+        "en": "Treasure\nIsland",
+        "th": "เกาะมหาสมบัติ",
+        "id": "Pulau\nHarta Karun",
+        "vi": "Đảo Châu Báu",
+        "zh_cn": "宝藏岛",
+        "zh_tw": "寶藏島",
+        "ja": "Treasure\nIsland",
+        "es": "Isla del Tesoro",
+        "tr": "Hazine\nAdası",
+        "fil_ph": "Isla ng\nYaman",
+        "pt_br": "Ilha do\nTesouro",
+        "ko": "보물\n섬",
+        "bn_bd": "ধনের\nদ্বীপ",
+        "hi_in": "खजाने\nका द्वीप",
+        "ms_my": "Pulau\nHarta"
     },
     "gameNames": {
-        "en": "Candy Land",
-        "id": "Candy Land",
-        "th": "Candy Land",
-        "vi": "Vương Quốc Kẹo Ngọt",
-        "zh_cn": "糖果乐园",
-        "zh_tw": "糖果樂園",
-        "ja": "Candy Land",
-        "es": "Candy Land"
+        "en": "Treasure Island",
+        "th": "เกาะมหาสมบัติ",
+        "id": "Pulau Harta Karun",
+        "vi": "Đảo Châu Báu",
+        "zh_cn": "宝藏岛",
+        "zh_tw": "寶藏島",
+        "ja": "Treasure Island",
+        "es": "Isla del Tesoro",
+        "tr": "Hazine Adası",
+        "fil_ph": "Treasure Island",
+        "pt_br": "Ilha do Tesouro",
+        "ko": "보물섬",
+        "bn_bd": "Treasure Island",
+        "hi_in": "Treasure Island",
+        "ms_my": "Treasure Island"
     }
 }

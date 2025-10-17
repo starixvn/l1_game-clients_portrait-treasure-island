@@ -39,10 +39,10 @@ export const languages = {
         "from_settle_to_spin2": "Umikot pa, mas manalo!",
         "from_settle_to_spin3": "Subukan ang Turbo mode",
         "show_msg_when_spin_phone": "I-tap o pindutin nang matagal ang Spin upang magsimula",
-        "top_message1": "SYMBOLS PAY ANYWHERE ON THE SCREEN",
-        "top_message2a": "HIT",
-        "top_message2b": "TO MULTIPLY TUMBLE WIN",
-        "top_message3": "WIN UP TO %{maxWin}X BET",
+        "top_message1": "Nagbabayad ang mga simbolo kahit saan sa screen",
+        "top_message2a": "Pindutin",
+        "top_message2b": "para dumami ang panalo sa tumble",
+        "top_message3": "Manalo ng hanggang %{maxWin}x na taya",
         "win_tumble_msg": "CONGRATULATION!",
         "round_settle_msg": "Good luck!",
         "index": "No.",
@@ -79,9 +79,10 @@ export const languages = {
         "volatility_high": "Mataas",
         "balance": "BALANCE",
         "bet": "Taya",
-        "msg_random_multipliers": "Mga random na Multiplier hanggang 250x",
+        "msg_random_multipliers": "Mga random na Multiplier hanggang 500x",
         "btn_buy_free_spins": "Buy\nFree Spins",
-        "msg_free_spins": "Pataas na Multiplier sa Free Spins"
+        "msg_free_spins": "Pataas na Multiplier sa Free Spins",
+        "turbo_icon": "Turbo"
     },
     "Common": {
         "bet_history": "Bet History",
@@ -329,7 +330,7 @@ export const languages = {
         "waiting_for_the_next_round": "Naghihintay para sa susunod na round",
         "show_more": "Ipakita pa",
         "show_less": "Ipakita ang kaunti",
-        "start_in": "Oras ng pagtaya: {time}s",
+        "start_in": "Betting time: {time}s\n",
         "cancel_bet": "(Alisin ang Taya)",
         "cashed": "NAKUHA",
         "cashout": "Cashout",
@@ -374,7 +375,25 @@ export const languages = {
         "title_multiplier": "Multiplier",
         "crash_start_in": "Magsisimula Sa",
         "crashed": "NATAPOS",
-        "start": "Simula"
+        "start": "Simula",
+        "max": "Max",
+        "stop_auto_bet": "Itigil ang Auto Bet",
+        "msg_rotate_to_portrait": "Paki-rotate ang iyong screen sa portrait mode para makapaglaro",
+        "auto_bet_header": "Gabay sa Auto Bet",
+        "how_to_use_auto_bet": "Paano Gamitin ang Auto Bet",
+        "auto_bet_para_1": "Hinahayaan ka ng Auto Bet na magtakda ng mga panuntunan para sa awtomatikong pagtaya hanggang sa matugunan ang iyong napiling mga kundisyon.",
+        "auto_bet_para_2": "Bilang ng mga Taya: Kabuuang mga round sa auto-bet.",
+        "auto_bet_para_3": "Sa Panalo:",
+        "auto_bet_para_3_1": "I-reset: Bumalik sa iyong panimulang taya pagkatapos manalo.",
+        "auto_bet_para_3_2": "Dagdagan ng: Itaas ang iyong taya sa isang nakatakdang porsyento kapag nanalo ka.",
+        "auto_bet_para_3_3": "(Halimbawa: Itakda ang +20% → Magsimula sa $10 → manalo → susunod na taya $12)",
+        "auto_bet_para_4": "Sa Pagkatalo:",
+        "auto_bet_para_4_1": "Reset: Bumalik sa iyong panimulang taya pagkatapos ng pagkatalo.",
+        "auto_bet_para_4_2": "Palakihin ng: Itaas ang iyong taya ng isang takdang porsyento kapag natalo ka.",
+        "auto_bet_para_4_3": "(Halimbawa: Itakda ang +50% → Magsimula sa $10 → matalo → susunod na taya $15)",
+        "auto_bet_para_5": "Huminto sa Panalo: Itigil ang Auto Bet kapag naabot mo na ang iyong target na panalo.",
+        "auto_bet_para_6": "Huminto sa Pagkawala: Ihinto ang Auto Bet kapag naabot mo na ang iyong limitasyon sa pagkawala.",
+        "tooltip_live_stat": "Live Stat"
     },
     "PickleballLoveStory": {
         "game_name": "Pickleball Love Story",
@@ -457,6 +476,10 @@ export const languages = {
         "total_win": "Total Win",
         "Unexpected_gift_code_error_message": "Nagkaroon ng hindi inaasahang error. Paki-subukan ulit mamaya.",
         "Close": "Isara"
+    },
+    "TreasureIsland": {
+        "game_name": "Treasure Island",
+        "game_icon_name": "Isla ng\nYaman"
     }
 };
 

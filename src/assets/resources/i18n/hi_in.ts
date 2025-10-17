@@ -31,7 +31,7 @@ export const languages = {
         "label_on_game_icon": "कैस्केडिंग रील्स",
         "Common-example": "उदाहरण:",
         "FreeSpin-title": "Free Spin",
-        "Payout-title": "पेटेबल",
+        "Payout-title": "Paytable",
         "auto_spin_guide_text": "ऑटो स्पिन की संख्या",
         "start": "शुरू करें",
         "free_spin_left_amount": "Free Spins शेष %{amount}",
@@ -79,9 +79,10 @@ export const languages = {
         "volatility_high": "उच्च",
         "balance": "बैलेंस",
         "bet": "बेट",
-        "msg_random_multipliers": "250x तक यादृच्छिक गुणक",
+        "msg_random_multipliers": "500x तक यादृच्छिक गुणक",
         "btn_buy_free_spins": "Free Spins\nखरीदें",
-        "msg_free_spins": "Free Spins में बढ़ता हुआ गुणक"
+        "msg_free_spins": "Free Spins में बढ़ता हुआ गुणक",
+        "turbo_icon": "Turbo"
     },
     "Common": {
         "bet_history": "बेट इतिहास",
@@ -374,7 +375,25 @@ export const languages = {
         "title_multiplier": "गुणक ",
         "crash_start_in": "में शुरू %{time}",
         "crashed": "क्रैश हो गया",
-        "start": "शुरू"
+        "start": "शुरू",
+        "max": "अधिकतम",
+        "stop_auto_bet": "ऑटो बेट बंद करें",
+        "msg_rotate_to_portrait": "खेलने के लिए कृपया अपनी स्क्रीन को पोर्ट्रेट मोड में घुमाएँ",
+        "auto_bet_header": "ऑटो बेट गाइड",
+        "how_to_use_auto_bet": "ऑटो बेट का उपयोग कैसे करें",
+        "auto_bet_para_1": "ऑटो बेट आपको स्वचालित बेटिंग के लिए नियम सेट करने की अनुमति देता है जब तक कि आपकी चुनी हुई शर्तें पूरी न हो जाएं।",
+        "auto_bet_para_2": "बेटों की संख्या: ऑटो-बेट के लिए कुल राउंड।",
+        "auto_bet_para_3": "जीतने पर",
+        "auto_bet_para_3_1": "रीसेट: जीतने के बाद अपनी शुरुआती शर्त पर वापस जाएँ।",
+        "auto_bet_para_3_2": "बढ़ाएँ: जीतने पर अपनी बेट को एक निश्चित प्रतिशत से बढ़ाएँ।",
+        "auto_bet_para_3_3": "(उदाहरण: +20% सेट करें → $10 से शुरू करें → जीतें → अगली शर्त $12)",
+        "auto_bet_para_4": "हार पर:",
+        "auto_bet_para_4_1": "Reset: हारने के बाद अपनी शुरुआती बाज़ी पर वापस जाएँ।",
+        "auto_bet_para_4_2": "इससे बढ़ाएँ: जब आप हारते हैं तो एक निश्चित प्रतिशत से अपनी बेट बढ़ाएँ।",
+        "auto_bet_para_4_3": "(उदाहरण: +50% सेट करें → $10 से शुरू करें → हारें → अगला बेट $15)",
+        "auto_bet_para_5": "जीतने पर रोकें: जीतने का लक्ष्य पूरा होने पर ऑटो बेट रोकें।",
+        "auto_bet_para_6": "नुकसान पर रोकें: अपनी हानि सीमा तक पहुंचने पर ऑटो बेट बंद करें।",
+        "tooltip_live_stat": "लाइव स्टैट"
     },
     "CandyLand": {
         "game_name": "CandyLand",
@@ -453,6 +472,10 @@ export const languages = {
         "total_win": "कुल जीत",
         "Unexpected_gift_code_error_message": "अप्रत्याशित त्रुटि हुई. कृपया बाद में पुन: प्रयास करें.",
         "Close": "बंद करें"
+    },
+    "TreasureIsland": {
+        "game_name": "Treasure Island",
+        "game_icon_name": "खजाने\nका द्वीप"
     }
 };
 

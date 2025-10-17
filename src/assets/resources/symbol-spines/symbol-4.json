@@ -1,78 +1,86 @@
 {
-"skeleton": { "hash": "5Qm4dWrDGeo8bvFL7mtiJFHvJs8", "spine": "3.8.99" },
+"skeleton": { "hash": "VWA781eiPWaWkfbe2ftvhIt1FyM", "spine": "3.8.99", "x": -45.5, "y": -41.5, "width": 91, "height": 83 },
 "bones": [
 	{ "name": "root" },
-	{ "name": "symbol-4", "parent": "root" },
-	{ "name": "explosion-candy-s4", "parent": "symbol-4" },
-	{ "name": "s4-transition", "parent": "symbol-4" },
-	{ "name": "s4", "parent": "s4-transition", "y": -0.41 },
-	{ "name": "explosion-star", "parent": "symbol-4" },
-	{ "name": "border-changecolor", "parent": "symbol-4" },
-	{ "name": "bg-reel-highlight", "parent": "symbol-4" },
-	{ "name": "light", "parent": "symbol-4" },
-	{ "name": "s4-outer", "parent": "s4", "x": -0.04, "y": -27.26 },
-	{ "name": "blink-star", "parent": "s4", "x": 20.37, "y": 8.74 }
+	{ "name": "explode", "parent": "root", "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "explose light circle", "parent": "root", "scaleX": 1.3, "scaleY": 1.3 },
+	{ "name": "medal-0", "parent": "root", "y": -5.58 },
+	{ "name": "medal", "parent": "medal-0" },
+	{ "name": "medal2", "parent": "medal", "length": 37.5, "transform": "noRotationOrReflection" },
+	{ "name": "side", "parent": "medal-0", "length": 4.79, "rotation": 180, "x": 20.51 },
+	{ "name": "neo", "parent": "medal-0", "rotation": -180, "x": 40.84 },
+	{ "name": "highlight", "parent": "medal-0", "x": -67.27 },
+	{ "name": "bling2", "parent": "medal2", "x": 21.73, "y": 26.78, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bling3", "parent": "medal2", "x": -19.69, "y": 20.93, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bling4", "parent": "medal2", "x": -2.39, "y": -15.64, "scaleX": 0.5, "scaleY": 0.5 }
 ],
 "slots": [
-	{ "name": "bg-reel-highlight", "bone": "bg-reel-highlight" },
-	{ "name": "explosion-star-01", "bone": "explosion-star" },
-	{ "name": "light", "bone": "light" },
-	{ "name": "s4", "bone": "s4" },
-	{ "name": "vfx-s0", "bone": "explosion-candy-s4" },
-	{ "name": "border-changecolor", "bone": "border-changecolor" },
-	{ "name": "s4-outer", "bone": "s4-outer", "blend": "additive" },
-	{ "name": "blink-star", "bone": "blink-star", "blend": "additive" }
+	{ "name": "medal", "bone": "medal2" },
+	{ "name": "medalside 1", "bone": "side", "attachment": "symbol/5" },
+	{ "name": "medal-clipingmask", "bone": "medal-0", "attachment": "medal-clipingmask" },
+	{ "name": "highlight", "bone": "highlight", "attachment": "highlight", "blend": "additive" },
+	{ "name": "explode", "bone": "explode", "blend": "additive" },
+	{ "name": "explose light circle", "bone": "explose light circle", "color": "ffab00ff", "blend": "additive" },
+	{ "name": "bling2", "bone": "bling2", "blend": "additive" },
+	{ "name": "bling3", "bone": "bling3", "blend": "additive" },
+	{ "name": "bling4", "bone": "bling4", "blend": "additive" }
 ],
 "skins": [
 	{
 		"name": "default",
 		"attachments": {
-			"bg-reel-highlight": {
-				"bg-reel-highlight": { "width": 110, "height": 110 }
+			"bling2": {
+				"bling": { "x": 0.5, "width": 135, "height": 122 }
 			},
-			"blink-star": {
-				"blink-star": { "x": 0.83, "y": -0.76, "width": 22, "height": 20 }
+			"bling3": {
+				"bling": { "x": 0.5, "width": 135, "height": 122 }
 			},
-			"border-changecolor": {
-				"rainbow-1": { "width": 110, "height": 110 },
-				"rainbow-2": { "width": 110, "height": 110 },
-				"rainbow-3": { "width": 110, "height": 110 },
-				"rainbow-4": { "width": 110, "height": 110 }
+			"bling4": {
+				"bling": { "x": 0.5, "width": 135, "height": 122 }
 			},
-			"explosion-star-01": {
-				"explosion-star-01": { "y": 4.18, "width": 142, "height": 144 },
-				"explosion-star-02": { "y": 4.18, "width": 142, "height": 144 },
-				"explosion-star-03": { "y": 4.18, "width": 142, "height": 144 },
-				"explosion-star-04": { "y": 4.18, "width": 142, "height": 144 },
-				"explosion-star-05": { "y": 4.18, "width": 142, "height": 144 },
-				"explosion-star-06": { "y": 4.18, "width": 142, "height": 144 },
-				"explosion-star-07": { "y": 4.18, "width": 142, "height": 144 }
+			"explode": {
+				"explode/sm00": { "width": 233, "height": 173 },
+				"explode/sm01": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm03": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm04": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm06": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm07": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm09": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm10": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm11": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm12": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm13": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm14": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm17": { "y": 0.5, "width": 233, "height": 173 }
 			},
-			"light": {
-				"light": { "width": 232, "height": 196 }
+			"explose light circle": {
+				"explose light circle/sb_vfx_a_add_00.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_01.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_05.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_06.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_07.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_08.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_09.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_11.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_12.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_13.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_14.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_15.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_16.jpg": { "width": 124, "height": 124 }
 			},
-			"s4": {
-				"s4": { "x": 0.27, "y": -0.35, "rotation": -0.59, "width": 73, "height": 76 }
+			"highlight": {
+				"highlight": { "y": 0.23, "width": 58, "height": 200 }
 			},
-			"s4-outer": {
-				"s4-outer": { "x": 0.51, "y": 26.74, "width": 86, "height": 89 }
+			"medal-clipingmask": {
+				"medal-clipingmask": {
+					"type": "clipping",
+					"end": "highlight",
+					"vertexCount": 10,
+					"vertices": [ -39.52, 36.98, 27.63, 38.65, 33.02, 37.72, 37.67, 34, 36.37, 29.54, 3.07, -30.54, -0.65, -32.21, -3.99, -31.66, -40.82, 29.17, -42.12, 33.07 ]
+				}
 			},
-			"vfx-s0": {
-				"vfx-s0-00": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-01": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-02": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-03": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-04": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-05": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-06": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-07": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-08": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-09": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-10": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-11": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-12": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-13": { "color": "be63ffff", "width": 175, "height": 197 },
-				"vfx-s0-14": { "color": "be63ffff", "width": 175, "height": 197 }
+			"medalside 1": {
+				"symbol/5": { "x": 20.51, "y": -5.58, "width": 91, "height": 83 }
 			}
 		}
 	}
@@ -80,206 +88,120 @@
 "animations": {
 	"explode": {
 		"slots": {
-			"bg-reel-highlight": {
-				"color": [
-					{ "color": "ffffffff", "curve": 0.635, "c2": 0.23, "c3": 0.709, "c4": 0.47 },
-					{ "time": 0.1333, "color": "ffffff00" }
-				],
+			"explode": {
 				"attachment": [
-					{ "name": "bg-reel-highlight" }
+					{ "name": "explode/sm00" },
+					{ "time": 0.0333, "name": "explode/sm01" },
+					{ "time": 0.1, "name": "explode/sm03" },
+					{ "time": 0.1333, "name": "explode/sm04" },
+					{ "time": 0.2, "name": "explode/sm06" },
+					{ "time": 0.2333, "name": "explode/sm07" },
+					{ "time": 0.3, "name": "explode/sm09" },
+					{ "time": 0.3333, "name": "explode/sm10" },
+					{ "time": 0.3667, "name": "explode/sm11" },
+					{ "time": 0.4, "name": "explode/sm12" },
+					{ "time": 0.4333, "name": "explode/sm13" },
+					{ "time": 0.4667, "name": "explode/sm14" },
+					{ "time": 0.5667, "name": "explode/sm17" }
 				]
 			},
-			"explosion-star-01": {
-				"color": [
-					{ "color": "ffffff00", "curve": 0.635, "c2": 0.23, "c3": 0.709, "c4": 0.47 },
-					{ "time": 0.1667, "color": "ffffffff", "curve": 0.635, "c2": 0.23, "c3": 0.709, "c4": 0.47 },
-					{ "time": 0.4667, "color": "ffffff00" }
-				],
+			"explose light circle": {
 				"attachment": [
-					{ "name": "explosion-star-01" },
-					{ "time": 0.0667, "name": "explosion-star-02" },
-					{ "time": 0.1333, "name": "explosion-star-03" },
-					{ "time": 0.2, "name": "explosion-star-05" },
-					{ "time": 0.2667, "name": "explosion-star-06" },
-					{ "time": 0.3667, "name": "explosion-star-07" },
-					{ "time": 0.4667, "name": null }
-				]
-			},
-			"light": {
-				"color": [
-					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.4, "color": "ffffff00" }
-				],
-				"attachment": [
-					{ "name": "light" }
-				]
-			},
-			"s4": {
-				"color": [
-					{ "time": 0.1667, "color": "ffffffff", "curve": 0.371, "c2": 0.62, "c3": 0.71 },
-					{ "time": 0.2, "color": "ffffff00" }
-				],
-				"attachment": [
-					{ "name": "s4" }
-				]
-			},
-			"vfx-s0": {
-				"attachment": [
-					{ "time": 0.1333, "name": "vfx-s0-00" },
-					{ "time": 0.1667, "name": "vfx-s0-01" },
-					{ "time": 0.2, "name": "vfx-s0-02" },
-					{ "time": 0.2333, "name": "vfx-s0-03" },
-					{ "time": 0.2667, "name": "vfx-s0-04" },
-					{ "time": 0.3, "name": "vfx-s0-05" },
-					{ "time": 0.3333, "name": "vfx-s0-06" },
-					{ "time": 0.3667, "name": "vfx-s0-07" },
-					{ "time": 0.4, "name": "vfx-s0-08" },
-					{ "time": 0.4333, "name": "vfx-s0-09" },
-					{ "time": 0.4667, "name": "vfx-s0-10" },
-					{ "time": 0.5333, "name": "vfx-s0-11" },
-					{ "time": 0.6, "name": "vfx-s0-12" },
-					{ "time": 0.6667, "name": "vfx-s0-13" },
-					{ "time": 0.7333, "name": "vfx-s0-14" },
-					{ "time": 0.8, "name": null }
+					{ "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 0.0333, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 0.0667, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 0.1, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 0.1333, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 0.1667, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 0.2, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 0.2333, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 0.2667, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 0.3, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 0.3333, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 0.3667, "name": "explose light circle/sb_vfx_a_add_15.jpg" },
+					{ "time": 0.4, "name": "explose light circle/sb_vfx_a_add_16.jpg" }
 				]
 			}
 		},
 		"bones": {
-			"explosion-candy-s4": {
+			"medal-0": {
 				"scale": [
-					{ "x": 1.4, "y": 1.4 }
-				]
-			},
-			"s4": {
-				"scale": [
-					{ "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.2, "x": 0.1, "y": 0.1 }
-				]
-			},
-			"explosion-star": {
-				"scale": [
-					{ "x": 1.5, "y": 1.5 }
-				]
-			},
-			"s4-transition": {
-				"translate": [
-					{ "curve": 0.635, "c2": 0.23, "c3": 0.709, "c4": 0.47 },
-					{ "time": 0.2, "y": 23.73 }
-				]
-			},
-			"light": {
-				"scale": [
-					{ "x": 0.1, "y": 0.1, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.4, "x": 2, "y": 2 }
+					{},
+					{ "time": 0.1667, "x": 0, "y": 0 }
 				]
 			}
 		}
 	},
 	"highlight": {
 		"slots": {
-			"bg-reel-highlight": {
-				"attachment": [
-					{ "name": "bg-reel-highlight" }
-				]
-			},
-			"blink-star": {
+			"bling2": {
 				"color": [
-					{ "time": 0.1667, "color": "ffffffff", "curve": 0, "c2": 0.25, "c4": 0.75 },
-					{ "time": 0.8333, "color": "ffffff00" }
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "color": "ffffff00" }
 				],
 				"attachment": [
-					{ "time": 0.1667, "name": "blink-star" }
+					{ "name": "bling" }
 				]
 			},
-			"border-changecolor": {
+			"bling3": {
 				"color": [
-					{ "color": "ffffffff", "curve": 0.635, "c2": 0.23, "c3": 0.709, "c4": 0.47 },
-					{ "time": 0.6667, "color": "ffffff73" }
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "color": "ffffff00" }
 				],
 				"attachment": [
-					{ "name": "rainbow-1" },
-					{ "time": 0.1667, "name": "rainbow-3" },
-					{ "time": 0.3333, "name": "rainbow-2" },
-					{ "time": 0.5, "name": "rainbow-4" },
-					{ "time": 0.6667, "name": "rainbow-1" }
+					{ "name": "bling" }
 				]
 			},
-			"s4": {
-				"attachment": [
-					{ "name": "s4" }
-				]
-			},
-			"s4-outer": {
+			"bling4": {
 				"color": [
-					{ "color": "ffffff6b", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.3, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.6, "color": "ffffff6b", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.9, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.2, "color": "ffffff6b" }
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5, "color": "ffffff00" }
 				],
 				"attachment": [
-					{ "name": "s4-outer" }
+					{ "name": "bling" }
 				]
 			}
 		},
 		"bones": {
-			"s4": {
+			"highlight": {
 				"translate": [
 					{ "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.2, "y": 8.92, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.3, "curve": "stepped" },
-					{ "time": 1.0333, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.2333, "y": 8.92, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.3333, "curve": 0.245, "c3": 0.637, "c4": 0.56 },
-					{ "time": 1.4333, "y": 0.23, "curve": 0.381, "c2": 0.55, "c3": 0.742 },
-					{ "time": 1.5 }
-				],
-				"scale": [
-					{ "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.0667, "x": 0.98, "y": 1.02, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.2, "x": 0.95, "y": 1.05, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.3, "x": 1.02, "y": 0.98, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.4667, "curve": "stepped" },
-					{ "time": 1.0333, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.1, "x": 0.98, "y": 1.02, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.2333, "x": 0.95, "y": 1.05, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.3333, "x": 1.02, "y": 0.98, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.5 }
+					{ "time": 0.6667, "x": 128.86 }
 				]
 			},
-			"blink-star": {
+			"bling2": {
 				"rotate": [
-					{ "time": 0.1667, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.8333, "angle": -90, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1.2 }
-				],
-				"translate": [
-					{ "time": 0.1667, "x": 4.97, "y": -8.15, "curve": 0, "c2": 0.25, "c4": 0.75 },
-					{ "time": 1.2, "x": -23.43, "y": -33.29 }
-				],
-				"scale": [
-					{
-						"time": 0.1667,
-						"x": 1.2,
-						"y": 1.2,
-						"curve": 0.229,
-						"c2": 0.64,
-						"c3": 0.472,
-						"c4": 0.71
-					},
-					{ "time": 1.2 }
+					{ "angle": 30, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.0667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3, "angle": 180, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "angle": 30 }
+				]
+			},
+			"bling3": {
+				"rotate": [
+					{ "angle": 60, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "angle": 180, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "angle": 60 }
+				]
+			},
+			"bling4": {
+				"rotate": [
+					{ "angle": 90, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "angle": 180, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "angle": 90 }
 				]
 			}
 		}
 	},
-	"idle": {
-		"slots": {
-			"s4": {
-				"attachment": [
-					{ "name": "s4" }
-				]
-			}
-		}
-	}
+	"idle": {}
 }
 }
