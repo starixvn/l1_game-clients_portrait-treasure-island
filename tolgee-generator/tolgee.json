@@ -1,0 +1,4 @@
+{
+    "mainNamespace": "TreasureIsland",
+    "additionalNamespaces": ["Common", "cascadingslot", "FreeSpinBonus"]
+}

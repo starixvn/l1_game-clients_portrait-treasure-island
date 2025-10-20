@@ -1,257 +1,125 @@
 
-transition.webp
-size: 1874,1850
+transition.png
+size: 1964,1886
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-energy/Energy_11
-  rotate: false
-  xy: 2, 1586
-  size: 466, 262
-  orig: 466, 262
+smoke/Energy 12_00000
+  rotate: true
+  xy: 604, 1284
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_12
-  rotate: false
-  xy: 2, 1322
-  size: 466, 262
-  orig: 466, 262
+smoke/Energy 12_00001
+  rotate: true
+  xy: 2, 944
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_13
+smoke/Energy 12_00002
   rotate: false
-  xy: 470, 1586
-  size: 466, 262
-  orig: 466, 262
+  xy: 342, 944
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_14
-  rotate: false
-  xy: 2, 1058
-  size: 466, 262
-  orig: 466, 262
+smoke/Energy 12_00003
+  rotate: true
+  xy: 944, 1284
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_15
-  rotate: false
-  xy: 470, 1322
-  size: 466, 262
-  orig: 466, 262
+smoke/Energy 12_00004
+  rotate: true
+  xy: 944, 682
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_16
-  rotate: false
-  xy: 938, 1586
-  size: 466, 262
-  orig: 466, 262
+smoke/Energy 12_00005
+  rotate: true
+  xy: 2, 342
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_17
-  rotate: false
-  xy: 2, 794
-  size: 466, 262
-  orig: 466, 262
+smoke/Energy 12_00007
+  rotate: true
+  xy: 342, 342
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_18
+smoke/Energy 12_00008
   rotate: false
-  xy: 470, 1058
-  size: 466, 262
-  orig: 466, 262
+  xy: 682, 342
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_19
-  rotate: false
-  xy: 938, 1322
-  size: 466, 262
-  orig: 466, 262
+smoke/Energy 12_00009
+  rotate: true
+  xy: 1284, 1284
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_20
-  rotate: false
-  xy: 1406, 1586
-  size: 466, 262
-  orig: 466, 262
+smoke/Energy 12_00010
+  rotate: true
+  xy: 1284, 682
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_21
+smoke/Energy 12_00011
   rotate: false
-  xy: 2, 530
-  size: 466, 262
-  orig: 466, 262
+  xy: 1284, 342
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_22
-  rotate: false
-  xy: 470, 794
-  size: 466, 262
-  orig: 466, 262
+smoke/Energy 12_00012
+  rotate: true
+  xy: 1624, 1284
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_23
-  rotate: false
-  xy: 938, 1058
-  size: 466, 262
-  orig: 466, 262
+smoke/Energy 12_00013
+  rotate: true
+  xy: 1624, 682
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_24
-  rotate: false
-  xy: 1406, 1322
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_25
-  rotate: false
-  xy: 2, 266
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_26
-  rotate: false
-  xy: 470, 530
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_27
-  rotate: false
-  xy: 938, 794
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_28
-  rotate: false
-  xy: 1406, 1058
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_29
+smoke/Energy 12_00014
   rotate: false
   xy: 2, 2
-  size: 466, 262
-  orig: 466, 262
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_30
+smoke/Energy 12_00015
   rotate: false
-  xy: 470, 266
-  size: 466, 262
-  orig: 466, 262
+  xy: 604, 2
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_31
+smoke/Energy 12_00017
   rotate: false
-  xy: 938, 530
-  size: 466, 262
-  orig: 466, 262
+  xy: 1206, 2
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1
-energy/Energy_32
+smoke/Energy 12_00018
   rotate: false
-  xy: 1406, 794
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_33
-  rotate: false
-  xy: 470, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_34
-  rotate: false
-  xy: 938, 266
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_35
-  rotate: false
-  xy: 1406, 530
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_36
-  rotate: false
-  xy: 938, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_37
-  rotate: false
-  xy: 1406, 266
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_38
-  rotate: false
-  xy: 1406, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-
-transition2.webp
-size: 1850,470
-format: RGBA8888
-filter: Linear,Linear
-repeat: none
-energy/Energy_39
-  rotate: true
-  xy: 2, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_40
-  rotate: true
-  xy: 266, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_41
-  rotate: true
-  xy: 530, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_42
-  rotate: true
-  xy: 794, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_43
-  rotate: true
-  xy: 1058, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_44
-  rotate: true
-  xy: 1322, 2
-  size: 466, 262
-  orig: 466, 262
-  offset: 0, 0
-  index: -1
-energy/Energy_45
-  rotate: true
-  xy: 1586, 2
-  size: 466, 262
-  orig: 466, 262
+  xy: 2, 1546
+  size: 600, 338
+  orig: 600, 338
   offset: 0, 0
   index: -1

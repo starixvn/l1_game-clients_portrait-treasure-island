@@ -1,188 +1,90 @@
 
 icon-game.webp
-size: 1729,771
+size: 443, 1025
 format: RGBA8888
-filter: Linear,Linear
+filter: Linear, Linear
 repeat: none
-Eyelid
+3dlight
   rotate: true
-  xy: 1571, 188
-  size: 45, 17
-  orig: 45, 17
+  xy: 2, 378
+  size: 195, 429
+  orig: 195, 429
   offset: 0, 0
   index: -1
-Flag
-  rotate: true
-  xy: 1130, 12
-  size: 162, 260
-  orig: 163, 262
-  offset: 0, 0
-  index: -1
-Head
+background1
   rotate: false
-  xy: 956, 24
-  size: 172, 215
-  orig: 172, 216
+  xy: 2, 575
+  size: 215, 448
+  orig: 215, 448
   offset: 0, 0
   index: -1
-armor-middle
+background2
   rotate: false
-  xy: 1586, 334
-  size: 119, 81
-  orig: 119, 83
+  xy: 219, 575
+  size: 215, 448
+  orig: 215, 448
+  offset: 0, 0
+  index: -1
+bag
+  rotate: false
+  xy: 312, 137
+  size: 128, 110
+  orig: 128, 113
   offset: 0, 0
   index: -1
 belt
   rotate: true
-  xy: 1604, 547
-  size: 223, 50
-  orig: 226, 60
-  offset: 3, 10
-  index: -1
-bg
-  rotate: true
-  xy: 1155, 374
-  size: 196, 429
-  orig: 196, 429
+  xy: 368, 30
+  size: 105, 59
+  orig: 105, 60
   offset: 0, 0
   index: -1
 body
-  rotate: true
-  xy: 1, 21
-  size: 300, 405
-  orig: 306, 405
-  offset: 5, 0
-  index: -1
-circlelight
   rotate: false
-  xy: 1, 323
-  size: 439, 447
-  orig: 439, 447
-  offset: 0, 0
+  xy: 2, 133
+  size: 178, 243
+  orig: 178, 262
+  offset: 0, 19
   index: -1
-coin1
-  rotate: true
-  xy: 1656, 566
-  size: 55, 46
-  orig: 60, 46
-  offset: 3, 0
-  index: -1
-coin2
+bottongold
   rotate: false
-  xy: 1590, 44
-  size: 83, 81
-  orig: 98, 97
-  offset: 9, 10
-  index: -1
-color
-  rotate: false
-  xy: 1392, 32
-  size: 196, 142
-  orig: 196, 142
+  xy: 2, 6
+  size: 202, 125
+  orig: 202, 125
   offset: 0, 0
   index: -1
-eyes
-  rotate: false
-  xy: 1656, 547
-  size: 44, 17
-  orig: 44, 17
-  offset: 0, 0
-  index: -1
-hip-armor-left
-  rotate: false
-  xy: 1656, 623
-  size: 53, 66
-  orig: 54, 66
-  offset: 0, 0
-  index: -1
-hip-armor-right
+finger
   rotate: true
-  xy: 664, 241
-  size: 92, 80
-  orig: 92, 80
+  xy: 206, 2
+  size: 19, 14
+  orig: 19, 14
   offset: 0, 0
   index: -1
-left-hand
+flare
   rotate: true
-  xy: 806, 241
-  size: 181, 332
-  orig: 181, 333
-  offset: 0, 0
+  xy: 182, 133
+  size: 44, 45
+  orig: 53, 47
+  offset: 5, 1
   index: -1
-lightoverlay
+gunshot
   rotate: true
-  xy: 1140, 176
-  size: 196, 429
-  orig: 196, 429
+  xy: 206, 23
+  size: 108, 160
+  orig: 109, 160
   offset: 0, 0
   index: -1
-right-arm 1
+hand
   rotate: false
-  xy: 1586, 417
-  size: 104, 128
-  orig: 105, 128
+  xy: 312, 249
+  size: 129, 127
+  orig: 129, 127
   offset: 0, 0
   index: -1
-right-hand1
+leg
   rotate: false
-  xy: 1571, 235
-  size: 122, 97
-  orig: 122, 97
+  xy: 182, 179
+  size: 128, 197
+  orig: 139, 197
   offset: 0, 0
-  index: -1
-right-hand2
-  rotate: true
-  xy: 1155, 572
-  size: 198, 447
-  orig: 198, 447
-  offset: 0, 0
-  index: -1
-robe
-  rotate: true
-  xy: 746, 258
-  size: 75, 50
-  orig: 76, 50
-  offset: 1, 0
-  index: -1
-shoulder-armor-left
-  rotate: false
-  xy: 1656, 691
-  size: 72, 79
-  orig: 72, 79
-  offset: 0, 0
-  index: -1
-shoulder-armor-right
-  rotate: true
-  xy: 1590, 127
-  size: 106, 98
-  orig: 107, 99
-  offset: 1, 0
-  index: -1
-slash/1
-  rotate: true
-  xy: 408, 3
-  size: 318, 254
-  orig: 775, 821
-  offset: 268, 348
-  index: -1
-slash/2
-  rotate: true
-  xy: 664, 1
-  size: 238, 290
-  orig: 775, 821
-  offset: 414, 311
-  index: -1
-slash/4
-  rotate: false
-  xy: 806, 424
-  size: 347, 346
-  orig: 775, 821
-  offset: 305, 192
-  index: -1
-slash/6
-  rotate: false
-  xy: 442, 335
-  size: 362, 435
-  orig: 775, 821
-  offset: 269, 159
   index: -1

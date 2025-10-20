@@ -1,107 +1,117 @@
 {
-"skeleton": { "hash": "IpaGUWkjBcRoJHm14kRrPSrG1jQ", "spine": "3.8.99" },
+"skeleton": {
+	"hash": "fIesqjXBvuBQsS+cG7o18Q5oJH8",
+	"spine": "3.8.99",
+	"x": -46.45,
+	"y": -42.5,
+	"width": 100,
+	"height": 85,
+	"images": "./images/",
+	"audio": ""
+},
 "bones": [
 	{ "name": "root" },
-	{ "name": "splash", "parent": "root", "scaleX": 1.3, "scaleY": 1.3 },
-	{ "name": "water melon", "parent": "root" },
-	{ "name": "highlight", "parent": "water melon", "rotation": -23.88, "x": -70.78, "y": 24.88 },
-	{ "name": "symbol-0-cut2", "parent": "water melon", "x": 6.57, "y": -1.25 },
-	{ "name": "symbol-0-cut1", "parent": "water melon", "x": -2.37, "y": 6.04 },
-	{ "name": "splash-liquid", "parent": "root", "y": 28.04 },
-	{ "name": "blink", "parent": "root" },
-	{ "name": "explode", "parent": "root" }
+	{ "name": "highlight", "parent": "root", "rotation": 44.57, "x": -34.11, "y": 44.38 },
+	{ "name": "explode", "parent": "root", "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "explose light circle", "parent": "root", "scaleX": 1.3, "scaleY": 1.3 },
+	{ "name": "harp", "parent": "root", "x": 3.55 },
+	{ "name": "bone", "parent": "harp", "rotation": 164.16, "x": 6.39, "y": 24.58 },
+	{ "name": "musicnote 2", "parent": "harp" },
+	{ "name": "musicnote 1", "parent": "harp" }
 ],
 "slots": [
-	{ "name": "splash-liquid", "bone": "splash-liquid", "color": "ffffffc7" },
-	{ "name": "water melon", "bone": "water melon" },
-	{ "name": "symbol-0-bright", "bone": "water melon", "color": "ffffffbe" },
-	{ "name": "symbol-0-cut2", "bone": "symbol-0-cut2" },
-	{ "name": "symbol-0-cut1", "bone": "symbol-0-cut1" },
-	{ "name": "blink", "bone": "blink" },
-	{ "name": "splash", "bone": "splash", "color": "0084ffff", "blend": "additive" },
-	{ "name": "plum-mask", "bone": "water melon" },
-	{ "name": "highlight", "bone": "highlight", "color": "ffffff95", "blend": "additive" },
-	{ "name": "explode", "bone": "explode", "blend": "additive" }
+	{ "name": "explode", "bone": "explode", "blend": "additive" },
+	{ "name": "explose light circle", "bone": "explose light circle", "color": "ffab00ff", "blend": "additive" },
+	{ "name": "harp", "bone": "harp", "attachment": "symbol/6" },
+	{ "name": "maskharphighlight", "bone": "harp", "attachment": "maskharphighlight" },
+	{ "name": "highlight", "bone": "highlight", "color": "ffffff67", "blend": "additive" },
+	{ "name": "musicnote 1", "bone": "musicnote 1", "color": "a9d9f2ff", "blend": "additive" },
+	{ "name": "musicnote 2", "bone": "musicnote 2", "color": "61bbffff", "blend": "additive" },
+	{ "name": "pathnote 1", "bone": "harp", "attachment": "pathnote 1" },
+	{ "name": "pathnote 2", "bone": "harp", "attachment": "pathnote 2" }
+],
+"path": [
+	{
+		"name": "pathnote 1",
+		"order": 1,
+		"bones": [ "musicnote 1" ],
+		"target": "pathnote 1"
+	},
+	{
+		"name": "pathnote 2",
+		"bones": [ "musicnote 2" ],
+		"target": "pathnote 2"
+	}
 ],
 "skins": [
 	{
 		"name": "default",
 		"attachments": {
-			"blink": {
-				"blink": { "x": 20.63, "y": -7.41, "width": 110, "height": 110 }
-			},
 			"explode": {
-				"explode/Explosion_00": { "width": 220, "height": 220 },
-				"explode/Explosion_01": { "width": 220, "height": 220 },
-				"explode/Explosion_02": { "width": 220, "height": 220 },
-				"explode/Explosion_03": { "width": 220, "height": 220 },
-				"explode/Explosion_04": { "width": 220, "height": 220 },
-				"explode/Explosion_05": { "width": 220, "height": 220 },
-				"explode/Explosion_06": { "width": 220, "height": 220 },
-				"explode/Explosion_07": { "width": 220, "height": 220 },
-				"explode/Explosion_08": { "width": 220, "height": 220 },
-				"explode/Explosion_09": { "width": 220, "height": 220 },
-				"explode/Explosion_10": { "width": 220, "height": 220 },
-				"explode/Explosion_11": { "width": 220, "height": 220 },
-				"explode/Explosion_12": { "width": 220, "height": 220 },
-				"explode/Explosion_13": { "width": 220, "height": 220 },
-				"explode/Explosion_14": { "width": 220, "height": 220 },
-				"explode/Explosion_15": { "width": 220, "height": 220 },
-				"explode/Explosion_16": { "width": 220, "height": 220 },
-				"explode/Explosion_17": { "width": 220, "height": 220 },
-				"explode/Explosion_18": { "width": 220, "height": 220 },
-				"explode/Explosion_19": { "width": 220, "height": 220 },
-				"explode/Explosion_20": { "width": 220, "height": 220 }
+				"explode/sm00": { "width": 233, "height": 173 },
+				"explode/sm01": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm03": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm04": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm06": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm07": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm09": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm10": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm11": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm12": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm13": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm14": { "y": 0.5, "width": 233, "height": 173 },
+				"explode/sm17": { "y": 0.5, "width": 233, "height": 173 }
+			},
+			"explose light circle": {
+				"explose light circle/sb_vfx_a_add_00.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_01.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_05.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_06.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_07.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_08.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_09.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_11.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_12.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_13.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_14.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_15.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_16.jpg": { "width": 124, "height": 124 }
+			},
+			"harp": {
+				"symbol/6": { "width": 100, "height": 85 }
 			},
 			"highlight": {
-				"highlight": { "width": 58, "height": 200 }
+				"highlight": { "x": -66.9, "y": -0.65, "rotation": -44.57, "width": 58, "height": 200 }
 			},
-			"plum-mask": {
-				"pineapple-mask": {
+			"maskharphighlight": {
+				"maskharphighlight": {
 					"type": "clipping",
 					"end": "highlight",
-					"vertexCount": 97,
-					"vertices": [ 1.63, 25.3, -1.4, 28.32, -1.08, 29.12, 1.76, 29.1, 5.62, 27.4, 8.02, 25.06, 6.7, 27.84, 3.76, 35.73, 11.96, 32.05, 12.01, 40.12, 14.01, 40.02, 16.89, 34.16, 16.87, 33.4, 17.51, 34.34, 17.72, 36.07, 21.02, 41.09, 23.06, 43.11, 23.98, 43.05, 24.98, 39.43, 25.02, 32.79, 35.05, 38.03, 37.15, 38.03, 36.95, 35.09, 32.35, 27.69, 34.65, 27.93, 41.25, 27.97, 44.05, 26.93, 43.93, 26.01, 34.77, 20.65, 37.47, 20.37, 42.09, 17.85, 41.93, 15.87, 31.47, 14.06, 34.03, 13.24, 37.99, 8.88, 38.03, 6.8, 27.65, 8.82, 31.03, 4.66, 30.91, 0.26, 27.91, 3.38, 28.11, -1.62, 29.41, -4.24, 31.07, -4.9, 30.93, -7.18, 29.01, -8.96, 28.11, -9, 28.2, -10.97, 27.13, -10.82, 27.44, -14.28, 28.99, -17.17, 26.83, -17.59, 20.67, -25.53, 22.23, -27.92, 21.7, -29.21, 19.23, -29.59, 16.34, -32.56, 12.24, -35.18, 12.08, -37.16, 11.48, -38.07, 9.8, -37.38, 7.41, -37.54, 4.29, -39.09, 0.27, -41.72, -3.8, -42.13, -9.8, -42.06, -16.76, -40.01, -23.25, -37.02, -23.86, -35.31, -26.63, -34.06, -30.39, -30.15, -31.42, -27.45, -32.98, -26.54, -33.4, -24.52, -31.95, -24.48, -33.51, -22.85, -33.85, -21.29, -34.99, -19.62, -35.75, -13.88, -37.84, -10.99, -35.14, -11.03, -34.84, -5.23, -32.26, -1.39, -33.13, 2.87, -32.98, 4.16, -30.51, 3.32, -25.87, 12.07, -25.42, 16.03, -22.83, 16.48, -21.92, 15.08, -20.63, 16.1, -16.33, 20.43, -13.9, 23.1, -12.65, 23.29, -11.55, 21.35, -8.51, 23.55, -1.82, 25.95, 0.01, 23.97 ]
+					"vertexCount": 35,
+					"vertices": [ -30.68, 39.62, -25.68, 37.51, -26.21, 32.25, -26.21, 22.52, -22.26, 13.58, -13.58, 11.74, -7.27, 15.16, -0.43, 14.89, 4.83, 19.1, 10.88, 20.15, 9.3, 25.15, 6.4, 30.67, 11.66, 34.09, 22.45, 30.94, 29.29, 24.1, 40.07, 17, 45.33, 4.11, 46.12, -10.62, 42.7, -19.82, 35.86, -29.55, 25.6, -34.81, 15.61, -35.6, 7.46, -35.34, -0.7, -34.02, -7.8, -30.61, -15.16, -29.03, -25.16, -22.72, -33.31, -13.25, -40.15, -2.73, -40.15, 4.37, -42.25, 8.58, -41.72, 15.68, -39.36, 22.78, -36.2, 30.94, -33.83, 36.46 ],
+					"color": "ce3a3aff"
 				}
 			},
-			"splash": {
-				"splash/Splash Spark 03 Color_00": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_01": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_02": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_03": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_04": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_05": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_06": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_07": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_08": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_09": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_10": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_11": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_12": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_13": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_14": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_15": { "width": 110, "height": 110 },
-				"splash/Splash Spark 03 Color_16": { "width": 110, "height": 110 }
+			"musicnote 1": {
+				"musicnote 1": { "y": 0.5, "width": 32, "height": 45 }
 			},
-			"splash-liquid": {
-				"splash-liquid": { "width": 110, "height": 110 }
+			"musicnote 2": {
+				"musicnote 2": { "y": 0.5, "width": 34, "height": 45 }
 			},
-			"symbol-0-bright": {
-				"symbol-5-bright": { "width": 110, "height": 110 }
+			"pathnote 1": {
+				"pathnote 1": {
+					"type": "path",
+					"lengths": [ 17.26, 48.12, 82.89, 156.3 ],
+					"vertexCount": 12,
+					"vertices": [ -14.98, -31.46, -15.29, -25.57, -15.49, -21.86, -19.97, -12.86, -23.17, -10.49, -29.24, -5.99, -41.84, -8.24, -49.04, 4.81, -56.24, 17.86, -51.52, 33.38, -50.39, 38.78, -49.27, 44.18 ]
+				}
 			},
-			"symbol-0-cut1": {
-				"symbol-5-cut1": { "width": 110, "height": 110 }
-			},
-			"symbol-0-cut2": {
-				"symbol-5-cut2": { "width": 110, "height": 110 }
-			},
-			"water melon": {
-				"symbol-5": {
-					"type": "mesh",
-					"uvs": [ 0.72737, 0.14357, 0.72738, 0.19985, 0.81806, 0.15445, 0.84095, 0.15399, 0.83656, 0.15479, 0.83673, 0.18192, 0.80448, 0.24532, 0.87737, 0.24536, 0.90023, 0.25453, 0.90019, 0.2636, 0.89191, 0.27225, 0.88159, 0.27866, 0.83056, 0.31065, 0.88261, 0.33655, 0.882, 0.35525, 0.80938, 0.37226, 0.84558, 0.41819, 0.84558, 0.43332, 0.84702, 0.43863, 0.83976, 0.43719, 0.78268, 0.42481, 0.78149, 0.52713, 0.78243, 0.56551, 0.77834, 0.56725, 0.76372, 0.58196, 0.7548, 0.58243, 0.76425, 0.64904, 0.76467, 0.65346, 0.7278, 0.69771, 0.71616, 0.71564, 0.70017, 0.76365, 0.61571, 0.83962, 0.60884, 0.84603, 0.60788, 0.84561, 0.57988, 0.84556, 0.56241, 0.85176, 0.52634, 0.87346, 0.52496, 0.87364, 0.50552, 0.88008, 0.50009, 0.88191, 0.41546, 0.88192, 0.41354, 0.88285, 0.37186, 0.87447, 0.36429, 0.87312, 0.33633, 0.86384, 0.32895, 0.86013, 0.30019, 0.84575, 0.25467, 0.80937, 0.23289, 0.7876, 0.22741, 0.78232, 0.19961, 0.74513, 0.18204, 0.68339, 0.17257, 0.63638, 0.15364, 0.60791, 0.15422, 0.60721, 0.15439, 0.59983, 0.18163, 0.59983, 0.18155, 0.56448, 0.19964, 0.46508, 0.19778, 0.46098, 0.20557, 0.46167, 0.22718, 0.45444, 0.2654, 0.37044, 0.27179, 0.35504, 0.27076, 0.35481, 0.31795, 0.34541, 0.37255, 0.29091, 0.37309, 0.29051, 0.3818, 0.29041, 0.39092, 0.29971, 0.48263, 0.26065, 0.49065, 0.23557, 0.51675, 0.23569, 0.55813, 0.24956, 0.53602, 0.1912, 0.53541, 0.17217, 0.60858, 0.20846, 0.60899, 0.16741, 0.60895, 0.13613, 0.62743, 0.13609, 0.63584, 0.15325, 0.6521, 0.18582, 0.69027, 0.12761, 0.70826, 0.10971, 0.70805, 0.10887, 0.71825, 0.10886 ],
-					"triangles": [ 83, 84, 85, 4, 2, 3, 80, 77, 78, 80, 78, 79, 77, 80, 81, 76, 74, 75, 76, 77, 81, 6, 1, 2, 5, 6, 2, 5, 2, 4, 73, 74, 76, 8, 10, 7, 9, 10, 8, 11, 7, 10, 11, 12, 6, 11, 6, 7, 63, 64, 65, 14, 12, 13, 15, 6, 12, 15, 12, 14, 1, 15, 76, 15, 1, 6, 20, 15, 16, 16, 19, 20, 17, 19, 16, 19, 17, 18, 66, 67, 68, 69, 66, 68, 58, 59, 60, 76, 81, 1, 65, 66, 69, 25, 20, 21, 23, 21, 22, 23, 24, 21, 21, 24, 25, 61, 56, 57, 56, 54, 55, 52, 54, 56, 53, 54, 52, 50, 51, 56, 52, 56, 51, 70, 71, 72, 70, 72, 73, 82, 1, 81, 28, 25, 26, 28, 26, 27, 1, 82, 0, 0, 83, 85, 0, 82, 83, 28, 29, 25, 76, 15, 20, 20, 25, 76, 25, 73, 76, 25, 70, 73, 56, 61, 50, 25, 29, 70, 61, 48, 50, 57, 58, 60, 61, 57, 60, 48, 49, 50, 29, 69, 70, 29, 65, 69, 61, 62, 65, 61, 47, 48, 61, 65, 47, 62, 63, 65, 47, 65, 35, 30, 31, 29, 29, 35, 65, 31, 34, 29, 33, 34, 31, 47, 45, 46, 32, 33, 31, 35, 29, 34, 45, 42, 43, 43, 44, 45, 42, 45, 47, 42, 47, 35, 36, 37, 35, 42, 35, 40, 37, 38, 35, 35, 38, 40, 39, 40, 38, 41, 42, 40 ],
-					"vertices": [ 25.01, 39.21, 25.01, 33.02, 34.99, 38.01, 37.5, 38.06, 37.02, 37.97, 37.04, 34.99, 33.49, 28.01, 41.51, 28.01, 44.03, 27, 44.02, 26, 43.11, 25.05, 41.98, 24.35, 36.36, 20.83, 42.09, 17.98, 42.02, 15.92, 34.03, 14.05, 38.01, 9, 38.01, 7.34, 38.17, 6.75, 37.37, 6.91, 31.1, 8.27, 30.96, -2.98, 31.07, -7.21, 30.62, -7.4, 29.01, -9.02, 28.03, -9.07, 29.07, -16.39, 29.11, -16.88, 25.06, -21.75, 23.78, -23.72, 22.02, -29, 12.73, -37.36, 11.97, -38.06, 11.87, -38.02, 8.79, -38.01, 6.86, -38.69, 2.9, -41.08, 2.75, -41.1, 0.61, -41.81, 0.01, -42.01, -9.3, -42.01, -9.51, -42.11, -14.1, -41.19, -14.93, -41.04, -18, -40.02, -18.82, -39.61, -21.98, -38.03, -26.99, -34.03, -29.38, -31.64, -29.99, -31.06, -33.04, -26.96, -34.98, -20.17, -36.02, -15, -38.1, -11.87, -38.04, -11.79, -38.02, -10.98, -35.02, -10.98, -35.03, -7.09, -33.04, 3.84, -33.24, 4.29, -32.39, 4.22, -30.01, 5.01, -25.81, 14.25, -25.1, 15.95, -25.22, 15.97, -20.03, 17.01, -14.02, 23, -13.96, 23.04, -13, 23.05, -12, 22.03, -1.91, 26.33, -1.03, 29.09, 1.84, 29.07, 6.39, 27.55, 3.96, 33.97, 3.89, 36.06, 11.94, 32.07, 11.99, 36.59, 11.98, 40.03, 14.02, 40.03, 14.94, 38.14, 16.73, 34.56, 20.93, 40.96, 22.91, 42.93, 22.89, 43.02, 24.01, 43.03 ],
-					"hull": 86
+			"pathnote 2": {
+				"pathnote 2": {
+					"type": "path",
+					"lengths": [ 26.24, 55.27, 73.8, 139.3 ],
+					"vertexCount": 12,
+					"vertices": [ -7.54, -11.93, 0.01, -11.84, 10.27, -11.73, 20.73, -6.61, 22.73, -1.04, 27.91, 13.36, 21.69, 17.69, 27.46, 27.31, 31.51, 34.06, 34.12, 36.04, 41.63, 38.33, 47.3, 40.06 ]
 				}
 			}
 		}
@@ -110,171 +120,46 @@
 "animations": {
 	"explode": {
 		"slots": {
-			"blink": {
-				"attachment": [
-					{ "time": 0.3, "name": "blink" },
-					{ "time": 0.3667, "name": null }
-				]
-			},
 			"explode": {
 				"attachment": [
-					{ "time": 0.8333, "name": "explode/Explosion_00" },
-					{ "time": 0.8667, "name": "explode/Explosion_01" },
-					{ "time": 0.9, "name": "explode/Explosion_02" },
-					{ "time": 0.9333, "name": "explode/Explosion_03" },
-					{ "time": 0.9667, "name": "explode/Explosion_04" },
-					{ "time": 1, "name": "explode/Explosion_05" },
-					{ "time": 1.0333, "name": "explode/Explosion_06" },
-					{ "time": 1.0667, "name": "explode/Explosion_07" },
-					{ "time": 1.1, "name": "explode/Explosion_08" },
-					{ "time": 1.1333, "name": "explode/Explosion_09" },
-					{ "time": 1.1667, "name": "explode/Explosion_10" },
-					{ "time": 1.2, "name": "explode/Explosion_11" },
-					{ "time": 1.2333, "name": "explode/Explosion_12" },
-					{ "time": 1.2667, "name": "explode/Explosion_13" },
-					{ "time": 1.3, "name": "explode/Explosion_14" },
-					{ "time": 1.3333, "name": "explode/Explosion_15" },
-					{ "time": 1.3667, "name": "explode/Explosion_16" },
-					{ "time": 1.4, "name": "explode/Explosion_17" },
-					{ "time": 1.4333, "name": "explode/Explosion_18" },
-					{ "time": 1.4667, "name": "explode/Explosion_19" },
-					{ "time": 1.5, "name": "explode/Explosion_20" }
+					{ "name": "explode/sm00" },
+					{ "time": 0.0333, "name": "explode/sm01" },
+					{ "time": 0.1, "name": "explode/sm03" },
+					{ "time": 0.1333, "name": "explode/sm04" },
+					{ "time": 0.2, "name": "explode/sm06" },
+					{ "time": 0.2333, "name": "explode/sm07" },
+					{ "time": 0.3, "name": "explode/sm09" },
+					{ "time": 0.3333, "name": "explode/sm10" },
+					{ "time": 0.3667, "name": "explode/sm11" },
+					{ "time": 0.4, "name": "explode/sm12" },
+					{ "time": 0.4333, "name": "explode/sm13" },
+					{ "time": 0.4667, "name": "explode/sm14" },
+					{ "time": 0.5667, "name": "explode/sm17" }
 				]
 			},
-			"highlight": {
+			"explose light circle": {
 				"attachment": [
-					{ "name": "highlight" }
-				]
-			},
-			"plum-mask": {
-				"attachment": [
-					{ "name": "pineapple-mask" }
-				]
-			},
-			"splash": {
-				"color": [
-					{ "color": "ffffffff" }
-				],
-				"attachment": [
-					{ "name": "splash/Splash Spark 03 Color_00" },
-					{ "time": 0.0333, "name": "splash/Splash Spark 03 Color_01" },
-					{ "time": 0.0667, "name": "splash/Splash Spark 03 Color_02" },
-					{ "time": 0.1, "name": "splash/Splash Spark 03 Color_03" },
-					{ "time": 0.1333, "name": "splash/Splash Spark 03 Color_04" },
-					{ "time": 0.1667, "name": "splash/Splash Spark 03 Color_05" },
-					{ "time": 0.2, "name": "splash/Splash Spark 03 Color_06" },
-					{ "time": 0.2333, "name": "splash/Splash Spark 03 Color_07" },
-					{ "time": 0.2667, "name": "splash/Splash Spark 03 Color_08" },
-					{ "time": 0.3, "name": "splash/Splash Spark 03 Color_09" },
-					{ "time": 0.3333, "name": "splash/Splash Spark 03 Color_10" },
-					{ "time": 0.3667, "name": "splash/Splash Spark 03 Color_11" },
-					{ "time": 0.4, "name": "splash/Splash Spark 03 Color_12" },
-					{ "time": 0.4333, "name": "splash/Splash Spark 03 Color_13" },
-					{ "time": 0.4667, "name": "splash/Splash Spark 03 Color_14" },
-					{ "time": 0.5, "name": "splash/Splash Spark 03 Color_15" },
-					{ "time": 0.5333, "name": "splash/Splash Spark 03 Color_16" }
-				]
-			},
-			"splash-liquid": {
-				"color": [
-					{ "color": "ffffffc7" },
-					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 1.3333, "color": "ffffffff" },
-					{ "time": 1.5, "color": "ffffff00" }
-				],
-				"attachment": [
-					{ "name": "splash-liquid" }
-				]
-			},
-			"symbol-0-bright": {
-				"attachment": [
-					{ "name": "symbol-5-bright" },
-					{ "time": 0.2667, "name": null },
-					{ "time": 0.3, "name": "symbol-5-bright" },
-					{ "time": 0.3333, "name": null }
-				]
-			},
-			"symbol-0-cut1": {
-				"color": [
-					{ "color": "ffffff00", "curve": "stepped" },
-					{ "time": 0.3333, "color": "ffffff00" },
-					{ "time": 0.3667, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 1.1667, "color": "ffffffff" },
-					{ "time": 1.5, "color": "ffffff00" }
-				],
-				"attachment": [
-					{ "name": "symbol-5-cut1" }
-				]
-			},
-			"symbol-0-cut2": {
-				"color": [
-					{ "color": "ffffff00", "curve": "stepped" },
-					{ "time": 0.3333, "color": "ffffff00" },
-					{ "time": 0.3667, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 1.1667, "color": "ffffffff" },
-					{ "time": 1.5, "color": "ffffff00" }
-				],
-				"attachment": [
-					{ "name": "symbol-5-cut2" }
-				]
-			},
-			"water melon": {
-				"color": [
-					{ "time": 0.5333, "color": "ffffffff" },
-					{ "time": 0.6333, "color": "ffffff00" }
-				],
-				"attachment": [
-					{ "name": "symbol-5" },
-					{ "time": 0.3667, "name": null },
-					{ "time": 0.6333, "name": "symbol-5" }
+					{ "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 0.0333, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 0.0667, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 0.1, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 0.1333, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 0.1667, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 0.2, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 0.2333, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 0.2667, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 0.3, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 0.3333, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 0.3667, "name": "explose light circle/sb_vfx_a_add_15.jpg" },
+					{ "time": 0.4, "name": "explose light circle/sb_vfx_a_add_16.jpg" }
 				]
 			}
 		},
 		"bones": {
-			"water melon": {
-				"translate": [
-					{ "curve": 0.651, "c2": 0.17, "c3": 0.873, "c4": 0.58 },
-					{ "time": 0.2333, "y": 3.87, "curve": 0.181, "c2": 0.46, "c3": 0.157, "c4": 0.96 },
-					{ "time": 0.2667, "y": 10.89, "curve": 0.181, "c2": 0.46, "c3": 0.157, "c4": 0.96 },
-					{ "time": 0.3, "y": 3.87, "curve": 0.181, "c2": 0.46, "c3": 0.157, "c4": 0.96 },
-					{ "time": 0.4667, "y": 15.45 }
-				],
+			"harp": {
 				"scale": [
-					{ "time": 0.2333 },
-					{ "time": 0.2667, "x": 0.919, "y": 0.927 },
-					{ "time": 0.3 }
-				]
-			},
-			"highlight": {
-				"translate": [
 					{},
-					{ "time": 0.3333, "x": 149.97 }
-				]
-			},
-			"symbol-0-cut2": {
-				"translate": [
-					{ "time": 0.3333 },
-					{ "time": 0.8, "x": 1.76, "y": -5.52 },
-					{ "time": 1.5, "x": 1.76, "y": -7.03 }
-				]
-			},
-			"symbol-0-cut1": {
-				"translate": [
-					{ "time": 0.8 },
-					{ "time": 1.5, "x": -2.76, "y": -1.76 }
-				]
-			},
-			"splash-liquid": {
-				"translate": [
-					{},
-					{ "time": 0.1, "y": 3.87, "curve": 0.181, "c2": 0.46, "c3": 0.157, "c4": 0.96 },
-					{ "time": 0.9333 },
-					{ "time": 1.5, "y": -3.7 }
-				],
-				"scale": [
-					{ "x": 0.1, "y": 0.1, "curve": "stepped" },
-					{ "time": 0.3667, "x": 0.1, "y": 0.1, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.4667 }
+					{ "time": 0.1667, "x": 0, "y": 0 }
 				]
 			}
 		}
@@ -286,46 +171,85 @@
 					{ "name": "highlight" }
 				]
 			},
-			"plum-mask": {
+			"musicnote 1": {
+				"color": [
+					{ "color": "a8d8f200" },
+					{ "time": 0.4, "color": "a8d8f200" },
+					{ "time": 0.8333, "color": "a8d8f2ff" },
+					{ "time": 1.1667, "color": "a8d8f200" }
+				],
 				"attachment": [
-					{ "name": "pineapple-mask" }
+					{ "name": "musicnote 1" }
 				]
 			},
-			"water melon": {
+			"musicnote 2": {
+				"color": [
+					{ "color": "61baff00" },
+					{ "time": 0.7333, "color": "61bbffff" },
+					{ "time": 0.9, "color": "61baff00" }
+				],
 				"attachment": [
-					{ "name": "symbol-5" }
+					{ "name": "musicnote 2" }
 				]
 			}
 		},
 		"bones": {
-			"water melon": {
-				"translate": [
-					{ "time": 1 }
-				],
-				"scale": [
-					{ "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.1333, "x": 0.98, "y": 0.98, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.3333, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.5, "x": 0.96, "y": 0.96, "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.5333 }
-				]
-			},
 			"highlight": {
 				"translate": [
-					{ "x": 22.13, "y": -1.47 },
-					{ "time": 0.5333, "x": 122.13, "y": -50.92 }
+					{ "time": 0.6667 },
+					{ "time": 1, "x": 142.14 }
+				]
+			},
+			"harp": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "angle": 2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "angle": -5.44, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "y": 2.62, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "y": 0.66, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5 }
+				]
+			},
+			"musicnote 1": {
+				"scale": [
+					{ "x": 0, "y": 0 },
+					{ "time": 0.8333, "x": 0.7, "y": 0.7 }
+				]
+			},
+			"musicnote 2": {
+				"scale": [
+					{ "x": 0, "y": 0 },
+					{ "time": 0.2667, "x": 0.8, "y": 0.8 }
+				]
+			}
+		},
+		"path": {
+			"pathnote 1": {
+				"position": [
+					{ "time": 0.5 },
+					{ "time": 1.1667, "position": 1 }
+				],
+				"mix": [
+					{ "rotateMix": 0.043 }
+				]
+			},
+			"pathnote 2": {
+				"position": [
+					{ "time": 0.2667 },
+					{ "time": 0.9333, "position": 1 }
+				],
+				"mix": [
+					{ "rotateMix": 0, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9333, "rotateMix": 0.674 }
 				]
 			}
 		}
 	},
-	"idle": {
-		"slots": {
-			"water melon": {
-				"attachment": [
-					{ "name": "symbol-5" }
-				]
-			}
-		}
-	}
+	"idle": {}
 }
 }

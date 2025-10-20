@@ -1,6 +1,6 @@
-export const GAME_NAME = "FruitSamurai";
+export const GAME_NAME = "TreasureIsland";
 export const settings = {
-    id: 132,
+    id: 47,
     name: GAME_NAME,
     observerNamespace: GAME_NAME,
     tolgeeNamespaces: [GAME_NAME, "cascadingslot"],

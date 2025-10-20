@@ -1,77 +1,62 @@
 {
-"skeleton": { "hash": "7iS42e7JyaS/i9qeS+N6V9iY9j4", "spine": "3.8.99", "images": "./images/", "audio": "" },
+"skeleton": { "hash": "K0Krn9fU9fL5OiEWAlqMpSZJc7Y", "spine": "3.8.99", "images": "", "audio": "" },
 "bones": [
 	{ "name": "root" },
-	{ "name": "circle_bg", "parent": "root", "length": 1, "color": "00ff5cff" },
-	{ "name": "hover_glow", "parent": "root", "color": "f3ff00ff" },
-	{ "name": "circle_glow", "parent": "root" },
-	{ "name": "electric", "parent": "root" }
+	{ "name": "circle", "parent": "root", "y": -2.4 },
+	{ "name": "strokecircle", "parent": "root" },
+	{ "name": "light circle", "parent": "root", "scaleX": 2, "scaleY": 2 },
+	{ "name": "circle-light", "parent": "root", "rotation": 177.28, "scaleX": 0.476, "scaleY": 0.476 },
+	{ "name": "circleidle", "parent": "root" }
 ],
 "slots": [
-	{ "name": "circle_glow", "bone": "circle_glow" },
-	{ "name": "spin_btn", "bone": "circle_bg" },
-	{ "name": "Emerald_glow", "bone": "circle_bg", "blend": "additive" },
-	{ "name": "hover_circle", "bone": "hover_glow", "blend": "additive" },
-	{ "name": "disable", "bone": "root" },
-	{ "name": "extra_particle/extra_particle_00", "bone": "circle_bg", "blend": "additive" },
-	{ "name": "electric", "bone": "electric", "blend": "additive" }
+	{ "name": "circle", "bone": "circle" },
+	{ "name": "strokecircle", "bone": "strokecircle" },
+	{ "name": "light circle", "bone": "light circle", "color": "13ff00ff", "blend": "additive" },
+	{ "name": "light circle2", "bone": "light circle", "color": "13ff00ff", "blend": "additive" },
+	{ "name": "disable", "bone": "root" }
 ],
 "skins": [
 	{
 		"name": "default",
 		"attachments": {
-			"Emerald_glow": {
-				"Emerald_glow": { "width": 220, "height": 221 }
-			},
-			"circle_glow": {
-				"circle_glow": { "width": 220, "height": 221 }
+			"circle": {
+				"hinhle/circle": { "width": 189, "height": 188 }
 			},
 			"disable": {
-				"disable": { "width": 184, "height": 184 }
+				"hinhle/disable": { "width": 208, "height": 208 }
 			},
-			"electric": {
-				"extra/Electric _1": { "width": 180, "height": 180 },
-				"extra/Electric _2": { "width": 180, "height": 180 },
-				"extra/Electric _3": { "width": 180, "height": 180 },
-				"extra/Electric _4": { "width": 180, "height": 180 },
-				"extra/Electric _5": { "width": 180, "height": 180 },
-				"extra/Electric _6": { "width": 180, "height": 180 },
-				"extra/Electric _7": { "width": 180, "height": 180 },
-				"extra/Electric _8": { "width": 180, "height": 180 }
+			"light circle": {
+				"explose light circle/sb_vfx_a_add_00.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_01.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_05.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_06.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_07.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_08.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_09.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_11.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_12.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_13.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_14.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_15.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_16.jpg": { "width": 124, "height": 124 }
 			},
-			"extra_particle/extra_particle_00": {
-				"extra_particle/extra_particle_00": { "width": 1, "height": 1 },
-				"extra_particle/extra_particle_01": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_02": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_03": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_04": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_05": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_06": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_07": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_08": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_09": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_10": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_11": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_12": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_13": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_14": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_15": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_16": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_17": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_18": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_19": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_20": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_21": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_22": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_23": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_24": { "width": 220, "height": 221 },
-				"extra_particle/extra_particle_25": { "width": 220, "height": 221 }
+			"light circle2": {
+				"explose light circle/sb_vfx_a_add_00.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_01.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_05.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_06.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_07.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_08.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_09.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_11.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_12.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_13.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_14.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_15.jpg": { "width": 124, "height": 124 },
+				"explose light circle/sb_vfx_a_add_16.jpg": { "width": 124, "height": 124 }
 			},
-			"hover_circle": {
-				"hover_circle": { "width": 220, "height": 221 }
-			},
-			"spin_btn": {
-				"spin_btn": { "width": 184, "height": 184 }
+			"strokecircle": {
+				"hinhle/strokecircle": { "width": 190, "height": 190 }
 			}
 		}
 	}
@@ -81,148 +66,244 @@
 		"slots": {
 			"disable": {
 				"attachment": [
-					{ "name": "disable" }
+					{ "name": "hinhle/disable" }
 				]
 			}
 		}
 	},
 	"hover": {
 		"slots": {
-			"hover_circle": {
-				"color": [
-					{ "color": "ffffff00" },
-					{ "time": 0.1667, "color": "ffffff84", "curve": "stepped" },
-					{ "time": 0.5, "color": "ffffff84" },
-					{ "time": 0.8333, "color": "ffffff00" }
-				],
+			"light circle": {
 				"attachment": [
-					{ "name": "hover_circle" }
+					{ "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 0.0667, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 0.1333, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 0.2, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 0.2667, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 0.3333, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 0.4, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 0.4667, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 0.5667, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 0.6333, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 0.7, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 0.7667, "name": "explose light circle/sb_vfx_a_add_15.jpg" },
+					{ "time": 0.8333, "name": "explose light circle/sb_vfx_a_add_16.jpg" }
 				]
-			}
-		},
-		"bones": {
-			"hover_glow": {
-				"scale": [
-					{ "x": 0.55, "y": 0.55, "curve": 0.139, "c3": 0.328 },
-					{ "time": 0.8333, "x": 1.062, "y": 1.062 }
+			},
+			"light circle2": {
+				"attachment": [
+					{ "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 0.0667, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 0.1333, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 0.2, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 0.2667, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 0.3333, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 0.4, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 0.4667, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 0.5667, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 0.6333, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 0.7, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 0.7667, "name": "explose light circle/sb_vfx_a_add_15.jpg" },
+					{ "time": 0.8333, "name": "explose light circle/sb_vfx_a_add_16.jpg" }
 				]
 			}
 		}
 	},
 	"idle": {
 		"slots": {
-			"Emerald_glow": {
-				"color": [
-					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 1, "color": "ffffff67", "curve": 0.25, "c3": 0.75 },
-					{ "time": 2, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 3, "color": "ffffff67", "curve": 0.25, "c3": 0.75 },
-					{ "time": 4, "color": "ffffff00" }
-				],
+			"circle": {
 				"attachment": [
-					{ "name": "Emerald_glow" }
+					{ "name": "hinhle/circle" }
 				]
 			},
-			"circle_glow": {
+			"strokecircle": {
 				"attachment": [
-					{ "name": "circle_glow" }
-				]
-			},
-			"spin_btn": {
-				"attachment": [
-					{ "name": "spin_btn" }
+					{ "name": "hinhle/strokecircle" }
 				]
 			}
 		},
 		"bones": {
-			"circle_bg": {
-				"scale": [
-					{ "curve": 0.25, "c3": 0.75 },
-					{ "time": 1, "x": 1.04, "y": 1.04, "curve": 0.25, "c3": 0.75 },
-					{ "time": 2, "curve": 0.25, "c3": 0.75 },
-					{ "time": 3, "x": 1.04, "y": 1.04, "curve": 0.25, "c3": 0.75 },
-					{ "time": 4 }
-				]
-			},
-			"circle_glow": {
-				"scale": [
-					{ "x": 0.919, "y": 0.919, "curve": 0.25, "c3": 0.75 },
-					{ "time": 1, "x": 1.03, "y": 1.03, "curve": 0.25, "c3": 0.75 },
-					{ "time": 2, "x": 0.919, "y": 0.919, "curve": 0.25, "c3": 0.75 },
-					{ "time": 3, "x": 1.03, "y": 1.03, "curve": 0.25, "c3": 0.75 },
-					{ "time": 4, "x": 0.919, "y": 0.919 }
+			"strokecircle": {
+				"rotate": [
+					{},
+					{ "time": 1.6667, "angle": 5 },
+					{ "time": 3.3333 }
 				]
 			}
 		}
 	},
 	"spin": {
 		"slots": {
-			"Emerald_glow": {
-				"color": [
-					{ "color": "ffffff00" },
-					{ "time": 0.1333, "color": "ffffffad" }
+			"circle": {
+				"attachment": [
+					{ "name": "hinhle/circle" }
 				]
 			},
-			"circle_glow": {
-				"color": [
-					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
-					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
-					{ "time": 0.7333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
-					{ "time": 1, "color": "ffffff00" }
-				],
+			"light circle": {
 				"attachment": [
-					{ "name": "circle_glow" }
+					{ "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 0.0667, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 0.1333, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 0.2, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 0.2667, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 0.3333, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 0.4, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 0.4667, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 0.5333, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 0.6, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 0.6667, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 0.7333, "name": "explose light circle/sb_vfx_a_add_15.jpg" },
+					{ "time": 0.8, "name": "explose light circle/sb_vfx_a_add_16.jpg" },
+					{ "time": 0.8667, "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 0.9333, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 1, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 1.0667, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 1.1333, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 1.2, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 1.2667, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 1.3333, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 1.4, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 1.4667, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 1.5333, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 1.6, "name": "explose light circle/sb_vfx_a_add_15.jpg" },
+					{ "time": 1.6667, "name": "explose light circle/sb_vfx_a_add_16.jpg" },
+					{ "time": 1.7333, "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 1.8, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 1.8667, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 1.9333, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 2, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 2.0667, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 2.1333, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 2.2, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 2.2667, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 2.3333, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 2.4, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 2.4667, "name": "explose light circle/sb_vfx_a_add_15.jpg" },
+					{ "time": 2.5333, "name": "explose light circle/sb_vfx_a_add_16.jpg" },
+					{ "time": 2.6, "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 2.6667, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 2.7333, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 2.8, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 2.8667, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 2.9333, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 3, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 3.0667, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 3.1333, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 3.2, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 3.2667, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 3.3333, "name": "explose light circle/sb_vfx_a_add_15.jpg" }
 				]
 			},
-			"spin_btn": {
+			"light circle2": {
 				"attachment": [
-					{ "name": "spin_btn" }
+					{ "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 0.0667, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 0.1333, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 0.2, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 0.2667, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 0.3333, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 0.4, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 0.4667, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 0.5333, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 0.6, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 0.6667, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 0.7333, "name": "explose light circle/sb_vfx_a_add_15.jpg" },
+					{ "time": 0.8, "name": "explose light circle/sb_vfx_a_add_16.jpg" },
+					{ "time": 0.8667, "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 0.9333, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 1, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 1.0667, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 1.1333, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 1.2, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 1.2667, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 1.3333, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 1.4, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 1.4667, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 1.5333, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 1.6, "name": "explose light circle/sb_vfx_a_add_15.jpg" },
+					{ "time": 1.6667, "name": "explose light circle/sb_vfx_a_add_16.jpg" },
+					{ "time": 1.7333, "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 1.8, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 1.8667, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 1.9333, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 2, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 2.0667, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 2.1333, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 2.2, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 2.2667, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 2.3333, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 2.4, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 2.4667, "name": "explose light circle/sb_vfx_a_add_15.jpg" },
+					{ "time": 2.5333, "name": "explose light circle/sb_vfx_a_add_16.jpg" },
+					{ "time": 2.6, "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 2.6667, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 2.7333, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 2.8, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 2.8667, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 2.9333, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 3, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 3.0667, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 3.1333, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 3.2, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 3.2667, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 3.3333, "name": "explose light circle/sb_vfx_a_add_15.jpg" }
+				]
+			},
+			"strokecircle": {
+				"attachment": [
+					{ "name": "hinhle/strokecircle" }
 				]
 			}
 		},
 		"bones": {
-			"circle_bg": {
-				"scale": [
-					{ "curve": 0.164, "c3": 0.381 },
-					{ "time": 0.1, "x": 1.05, "y": 1.05, "curve": 0.164, "c3": 0.381 },
-					{ "time": 0.2 }
+			"strokecircle": {
+				"rotate": [
+					{},
+					{ "time": 1.6667, "angle": 5 },
+					{ "time": 3.3333 }
 				]
 			},
-			"circle_glow": {
+			"light circle": {
 				"scale": [
-					{ "x": 1.02, "y": 1.02 }
+					{ "x": 0.8, "y": 0.8 }
 				]
 			}
 		}
 	},
 	"spin-extra": {
 		"slots": {
-			"electric": {
+			"light circle": {
 				"attachment": [
-					{ "name": "extra/Electric _1" },
-					{ "time": 0.0333, "name": "extra/Electric _2" },
-					{ "time": 0.0667, "name": "extra/Electric _3" },
-					{ "time": 0.1, "name": "extra/Electric _4" },
-					{ "time": 0.1333, "name": "extra/Electric _5" },
-					{ "time": 0.1667, "name": "extra/Electric _6" },
-					{ "time": 0.2, "name": "extra/Electric _7" },
-					{ "time": 0.2333, "name": "extra/Electric _8" },
-					{ "time": 0.2667, "name": "extra/Electric _1" },
-					{ "time": 0.3, "name": "extra/Electric _2" },
-					{ "time": 0.3333, "name": "extra/Electric _3" },
-					{ "time": 0.3667, "name": "extra/Electric _4" },
-					{ "time": 0.4, "name": "extra/Electric _5" },
-					{ "time": 0.4333, "name": "extra/Electric _6" },
-					{ "time": 0.4667, "name": "extra/Electric _7" },
-					{ "time": 0.5, "name": "extra/Electric _8" },
-					{ "time": 0.5333, "name": "extra/Electric _1" },
-					{ "time": 0.5667, "name": "extra/Electric _2" },
-					{ "time": 0.6, "name": "extra/Electric _3" },
-					{ "time": 0.6333, "name": "extra/Electric _4" },
-					{ "time": 0.6667, "name": "extra/Electric _5" },
-					{ "time": 0.7, "name": "extra/Electric _6" },
-					{ "time": 0.7333, "name": "extra/Electric _7" },
-					{ "time": 0.7667, "name": "extra/Electric _8" }
+					{ "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 0.0667, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 0.1333, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 0.2, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 0.2667, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 0.3333, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 0.4, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 0.4667, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 0.5667, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 0.6333, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 0.7, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 0.7667, "name": "explose light circle/sb_vfx_a_add_15.jpg" },
+					{ "time": 0.8333, "name": "explose light circle/sb_vfx_a_add_16.jpg" }
+				]
+			},
+			"light circle2": {
+				"attachment": [
+					{ "name": "explose light circle/sb_vfx_a_add_00.jpg" },
+					{ "time": 0.0667, "name": "explose light circle/sb_vfx_a_add_01.jpg" },
+					{ "time": 0.1333, "name": "explose light circle/sb_vfx_a_add_05.jpg" },
+					{ "time": 0.2, "name": "explose light circle/sb_vfx_a_add_06.jpg" },
+					{ "time": 0.2667, "name": "explose light circle/sb_vfx_a_add_07.jpg" },
+					{ "time": 0.3333, "name": "explose light circle/sb_vfx_a_add_08.jpg" },
+					{ "time": 0.4, "name": "explose light circle/sb_vfx_a_add_09.jpg" },
+					{ "time": 0.4667, "name": "explose light circle/sb_vfx_a_add_11.jpg" },
+					{ "time": 0.5667, "name": "explose light circle/sb_vfx_a_add_12.jpg" },
+					{ "time": 0.6333, "name": "explose light circle/sb_vfx_a_add_13.jpg" },
+					{ "time": 0.7, "name": "explose light circle/sb_vfx_a_add_14.jpg" },
+					{ "time": 0.7667, "name": "explose light circle/sb_vfx_a_add_15.jpg" },
+					{ "time": 0.8333, "name": "explose light circle/sb_vfx_a_add_16.jpg" }
 				]
 			}
 		}

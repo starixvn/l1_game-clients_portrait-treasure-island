@@ -1,153 +1,55 @@
 
-mascot.webp
-size: 2022,459
+mascot.png
+size: 1204,226
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Eyelid
+bag
+  rotate: true
+  xy: 732, 57
+  size: 167, 138
+  orig: 335, 522
+  offset: 75, 138
+  index: -1
+chan
   rotate: false
-  xy: 1, 4
-  size: 45, 17
-  orig: 45, 17
-  offset: 0, 0
+  xy: 465, 14
+  size: 170, 210
+  orig: 335, 522
+  offset: 75, 29
   index: -1
-Flag
+dau
   rotate: true
-  xy: 1149, 2
-  size: 162, 260
-  orig: 163, 262
-  offset: 0, 0
+  xy: 1106, 52
+  size: 110, 96
+  orig: 335, 522
+  offset: 135, 394
   index: -1
-Head
+main-char
   rotate: true
-  xy: 1798, 286
-  size: 172, 215
-  orig: 172, 216
-  offset: 0, 0
+  xy: 2, 2
+  size: 222, 461
+  orig: 335, 522
+  offset: 46, 29
   index: -1
-armor-middle
-  rotate: true
-  xy: 1066, 31
-  size: 119, 81
-  orig: 119, 83
-  offset: 0, 0
-  index: -1
-belt
+tayphai
   rotate: false
-  xy: 365, 1
-  size: 223, 50
-  orig: 226, 60
-  offset: 3, 10
+  xy: 637, 49
+  size: 93, 175
+  orig: 335, 522
+  offset: 45, 213
   index: -1
-body
-  rotate: false
-  xy: 365, 53
-  size: 300, 405
-  orig: 306, 405
-  offset: 5, 0
-  index: -1
-eyes
-  rotate: false
-  xy: 48, 4
-  size: 44, 17
-  orig: 44, 17
-  offset: 0, 0
-  index: -1
-highlight
+taytrai
   rotate: true
-  xy: 590, 2
-  size: 49, 198
-  orig: 58, 200
-  offset: 4, 1
+  xy: 872, 164
+  size: 60, 289
+  orig: 335, 522
+  offset: 209, 86
   index: -1
-hip-armor-left
+thanhinh
   rotate: true
-  xy: 744, 56
-  size: 53, 66
-  orig: 54, 66
-  offset: 0, 0
-  index: -1
-hip-armor-right
-  rotate: true
-  xy: 1115, 166
-  size: 92, 80
-  orig: 92, 80
-  offset: 0, 0
-  index: -1
-left-hand
-  rotate: true
-  xy: 1464, 277
-  size: 181, 332
-  orig: 181, 333
-  offset: 0, 0
-  index: -1
-right-arm 1
-  rotate: true
-  xy: 812, 5
-  size: 104, 128
-  orig: 105, 128
-  offset: 0, 0
-  index: -1
-right-hand1
-  rotate: false
-  xy: 942, 12
-  size: 122, 97
-  orig: 122, 97
-  offset: 0, 0
-  index: -1
-right-hand2
-  rotate: true
-  xy: 1015, 260
-  size: 198, 447
-  orig: 198, 447
-  offset: 0, 0
-  index: -1
-robe
-  rotate: false
-  xy: 667, 59
-  size: 75, 50
-  orig: 76, 50
-  offset: 1, 0
-  index: -1
-shoulder-armor-left
-  rotate: false
-  xy: 1197, 179
-  size: 72, 79
-  orig: 72, 79
-  offset: 0, 0
-  index: -1
-shoulder-armor-right
-  rotate: true
-  xy: 1015, 152
-  size: 106, 98
-  orig: 107, 99
-  offset: 1, 0
-  index: -1
-slash/1
-  rotate: false
-  xy: 1411, 4
-  size: 318, 254
-  orig: 775, 821
-  offset: 268, 348
-  index: -1
-slash/2
-  rotate: true
-  xy: 1731, 37
-  size: 238, 290
-  orig: 775, 821
-  offset: 414, 311
-  index: -1
-slash/4
-  rotate: true
-  xy: 667, 111
-  size: 347, 346
-  orig: 775, 821
-  offset: 305, 192
-  index: -1
-slash/6
-  rotate: false
-  xy: 1, 23
-  size: 362, 435
-  orig: 775, 821
-  offset: 269, 159
+  xy: 872, 3
+  size: 159, 232
+  orig: 335, 522
+  offset: 73, 202
   index: -1

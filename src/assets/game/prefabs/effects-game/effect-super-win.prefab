@@ -506,7 +506,7 @@
     "skeleton": {
       "__id__": 5
     },
-    "boneName": "text-superwin",
+    "boneName": "text-bigwin",
     "_id": ""
   },
   {
@@ -540,8 +540,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1398,
-      "height": 786
+      "width": 786,
+      "height": 1398
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
