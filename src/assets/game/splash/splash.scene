@@ -2198,7 +2198,7 @@
     "propertyPath": [
       "_shadowBlur"
     ],
-    "value": 5
+    "value": 0
   },
   {
     "__type__": "cc.TargetInfo",
